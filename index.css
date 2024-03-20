@@ -110,7 +110,7 @@ img#lang {
 }
 
 
-/* texten som skrivs i formuläret */
+/* text that writes in the form */
 input[type="text"] {
     background-color: #81BA5F;
     color: #FFFFFF;
@@ -118,7 +118,7 @@ input[type="text"] {
 }
 
 
-/* knappen för att skicka in svar */
+/* submit button */
 input[type="submit"] {
 
     background-color: #81BA5F;
@@ -130,8 +130,3 @@ input:focus {
     background-color: #00fa25;
     color: black;
 }
-/* så att alla bilder blir responsiva */
-img.responsive {
-	width: 100%;
-	height: auto;
-  }
