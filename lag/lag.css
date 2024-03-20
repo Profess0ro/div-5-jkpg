@@ -1,0 +1,101 @@
+
+/* alla klubbmärken har detta ID! */
+img#logo {
+    float:right;
+    max-width: 150px;
+	height: auto;
+}
+
+/* färg på resultatlänkar */
+a#link {
+	text-decoration: none;
+	color: #000000;
+    font-weight: bold;
+}
+
+
+
+h1 {
+    font-family: Verdana;
+    font-size: x-large;
+    font-style: normal;
+}
+
+span {
+    font-family: Verdana;
+    font-size: medium;
+    font-style: normal;
+    text-align: justify;
+}
+/* alla svar har denna storleken */
+span#svar {
+    font-size:small;
+    font-style:italic;
+}
+
+/*sommens frågor */
+#sommen  {
+    color:#003499;
+    font-weight: bold;
+}
+
+
+
+/*annebergs frågor */
+#annebergs  {
+    color:#0067B2;
+    font-weight: bold;
+}
+
+
+/*svarta frågor */
+#svart  {
+    color:#000000;
+    font-weight: bold;
+}
+
+
+/*ekenässjöns fråor */
+#ekenassjon  {
+    color:#E31D1A;
+    font-weight: bold;
+}
+
+
+
+/*bälaryds fråor */
+#balaryd  {
+    color:#36A544;
+    font-weight: bold;
+}
+
+
+/*holsbyss fråor */
+#holsby  {
+    color:#FD0100;
+    font-weight: bold;
+}
+
+
+
+/* ekjsös frågor */
+#eksjo  {
+    color: #9E293C;
+    font-weight: bold;
+}
+
+
+/* lekeryds frågor */
+#lekeryd  {
+    color: #154F99;
+    font-weight: bold;
+}
+
+
+/* solbergas frågor */
+#solberga {
+    color: #C3170B;
+    font-weight: bold;
+}
+
+
