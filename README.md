@@ -33,11 +33,11 @@ This is a picture from a local game that a local paper put in an article.
 
 <img src="pics/readme/nav.png">
 
-1. Here I´ve put a navigation to all the teams info in a seperated navigation bar. These logos won´t change any dimension on any screensize, just create more rows on the screen. First I thought that would be a problem on mobile phones, but when I looked at the page in my phone that didn´t disturb anything and was easier to navigate. If the logos had been smaller on smaller screens it would have been harder to navigate to all team pages.
+1. Here I´ve put a navigation to all the teams info in a seperated navigation bar. 
 2. Here is a smaller navigation bar to pages outside the teams information.
 3. On the homepage you can decide if you want to visit the page in swedish or english. 
 
-- Almost all links is targeting the iframe, thats a method I´ve learned years ago and doesn´t need to load a whole new url. The exceptions is "standings" (opens in a new window/tab) and changing language (opens on top).
+
 
 ### Home
 
@@ -61,3 +61,38 @@ Here is information how to contact me if there´s more content that the visitors
 # Structure
 
 <img src="pics/readme/structure.png">
+
+As you can see in this picture all links to team pages at nav1 is targeting the iframe, thats a method I´ve learned years ago and doesn´t need to load a whole new url every time you click on a link. The exceptions is "standings" at nav2 (opens in a new window/tab) and changing language at the home page (opens on top).
+
+<hr>
+
+# Problems I encountered
+
+- my biggest issue with this structure that I´ve chosen was to not have any scrollbar at the page at any type of screen. That was solved by having a height at the iframe of vh60%, so that the only scrollbar visual is in the iframe where all info is shown.
+- a smaller problem was the navigation with all the the logos so they won´t change any size on any screensize, they just create more rows on the screen. First I thought that would be a problem on mobile phones, but when I looked at the page in my phone that didn´t disturb anything and was easier to navigate when they didn´t change size. If the logos had been smaller on smaller screens it would have been harder to navigate to all team pages.
+
+<hr>
+
+ # Design
+
+ - background picture is a soccerfield that gets more visual the bigger your screen are. The image is downloaded from https://www.vecteezy.com/free-vector/soccer-pitch
+
+ - Font is Verdana which is a clean easyreadable font that doesn´t require downloading of a new font for the user.
+
+ - Team logos are aquired from https://www.smalandsfotbollen.se/
+
+ - Color of the text on the teampage are aquired from the color of the logo, except IF Eksjö Fotboll´s page, that text color are from their jerseys.
+
+
+<hr>
+
+# What I would like to implement:
+
+- <b>A guestbook</b> - where visitors/supporters could comment games and other happenings in the league.
+- <b>Post-season comments</b> - here could supporters read comments from the manager about the season when it has ended.
+
+<hr>
+
+
+
+
