@@ -1,13 +1,15 @@
 # Division 5 Norra
 
 
-<img src="pics/responsive.png" alt="responsive" width="800">
+<img src="pics/readme/responsive.png" alt="responsive" width="800">
 
 ### This is a website I´ve made focusing on the pre-season for a local soccer league in the area of Jönköping.
 
 ### I have created this website mainly for people that loves soccer around this area. So that supporters/players/managers can have a insight what the team managers thoughts are about this season. 
 
 ### When reading the managers answer of my questions the supporters have more information about what the teams think of this season.
+
+<hr>
 
 # Features 
 
@@ -18,3 +20,7 @@
 # User value
 
 The users will be provided first hand information from the managers/teamleaders thoughts about the season of year 2024.
+
+# Navigation
+
+<img src="pics/readme/nav.png">
