@@ -9,6 +9,7 @@ img.headerbild {
 	margin-right: 5%;
 	width: 80%;
 	height: auto;
+	vertical-align: middle;
 }
 
 footer {
