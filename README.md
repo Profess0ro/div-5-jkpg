@@ -24,3 +24,9 @@ The users will be provided first hand information from the managers/teamleaders 
 # Navigation
 
 <img src="pics/readme/nav.png">
+
+1. Here I´ve put a navigation to all the teams info in a seperated navigation bar. These emblems won´t change any dimension on any screensize, just create more rows on the screen. First I thought that would be a problem on mobile phones, but when I looked at the page in my phone that didn´t disturb anything and was easier to navigate. If they had been smaller on smaller screens it would have been harder to navigate to all team pages.
+2. Here is a smaller navigation bar to pages outside the teams information.
+3. On the homepage you can decide if you want to visit the page in swedish or english. 
+
+- Every link is targeting the iframe, except "standings" (opens in a new window/tab) and changing language (opens on top)
