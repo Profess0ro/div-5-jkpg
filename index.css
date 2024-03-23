@@ -5,10 +5,15 @@ body {
   }
 
 img.headerbild {
-	margin-left: 5%;
-	margin-right: 5%;
-	width: 80%;
+	padding-left: auto;
+	padding-right: auto;
+	width: 88.9%;
 	height: auto;
+}
+
+header {
+	margin-left: 10%;
+	
 }
 
 footer {
@@ -42,7 +47,7 @@ width:80%;
 	background-color: #FFFFFF;
 	margin-bottom: 3px;
 	margin-left: 10%;
- 	margin-right: 10%;
+ 	margin-right: 10%;	
 
 }
 
@@ -52,7 +57,7 @@ img.logos {
 	height: 50px;
 	}
 
-	img.logos:hover {
+img.logos:hover {
 	filter: grayscale(0);
 	width: auto;
 	height: 50px;
