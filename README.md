@@ -116,12 +116,13 @@ This website is built in Visual Studio Code and published to GitHub using comman
 # Source reference
 
 - https://tranastidning.se/ - header picture.
-- https://smalandsfotbollen.se/ - team logos.
+- https://smalandsfotbollen.se/ - team logos, rescent scores and last years placements.
 - https://validator.w3.org/ - testing HTML
 - https://jigsaw.w3.org/css-validator/ testing CSS
 - https://www.vecteezy.com/free-vector/soccer-pitch - background picture
 - absorbed some codes through Code Institutes challenges but most of the codes used are from knowledge before (selflearned with https://javascript.nu/ years back)
 - https://www.w3schools.com/ for a searching after css attributes.
+- mail and text messages with the managers is how I´ve got the information for the teams pages.
 <hr>
 
 # Mentions
