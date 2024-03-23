@@ -81,7 +81,9 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 
  - Team logos are aquired from https://www.smalandsfotbollen.se/
 
- - Color of the text on the teampage are aquired from the color of the logo, except IF Eksjö Fotboll´s page, that text color are from their jerseys.
+ - Color of the text on the teampage are aquired from the color of the logo, except IF Eksjö Fotboll´s page, that text color are from their jerseys. Used Paint´s tool "Color picker"
+
+ - The header picture are from https://tranastidning.se/
 
 
 <hr>
@@ -93,6 +95,38 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 
 <hr>
 
+# Testing
+
+<b>HTML</b> - Went through without fails ( https://validator.w3.org )
+<img src="pics/readme/w3c.png">
+
+<b>CSS</b> - Went through without fails ( https://jigsaw.w3.org/css-validator )
+<img src="pics/readme/jigsaw.png">
+
+<b>Responsiveness</b> - Checked with Chromes built in (right-click -> inspect) and also manually on laptop/smartphone/big screen.
+
+<hr>
+
+# Deployment
+
+This website is built in Visual Studio Code and published to GitHub using commands as: git add ____ / git commit -m "message" / git push
+
+<hr>
+
+# Source reference
+
+- https://tranastidning.se/ - header picture.
+- https://smalandsfotbollen.se/ - team logos.
+- https://validator.w3.org/ - testing HTML
+- https://jigsaw.w3.org/css-validator/ testing CSS
+- https://www.vecteezy.com/free-vector/soccer-pitch - background picture
+- absorbed some codes through Code Institutes challenges but most of the codes used are from knowledge before (selflearned with https://javascript.nu/ years back)
+- https://www.w3schools.com/ for a searching after css attributes.
+<hr>
+
+# Mentions
+
+- Jörgen Jonsson & Erik Guldbrand who welcomed and helped me with git commands and how to think in the beginning.
 
 
 
