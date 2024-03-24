@@ -68,9 +68,9 @@ img.logos:hover {
 	margin-bottom: 3px;
 	margin-left: 10%;
  	margin-right: 10%;
-	height: 25px;
+	height: 20px;
 	margin-top: 3px;
-	text-align: center;
+	text-align: justify;
 	}
 
 a.nav {
@@ -78,7 +78,8 @@ a.nav {
 	text-decoration: none;
 	font-family:Verdana, sans-serif;
 	text-transform: uppercase;
-	font-size: 20px;
+	font-size: 17px;
+	
 }
 
 a.nav:hover {
