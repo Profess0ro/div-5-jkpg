@@ -105,6 +105,7 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 
 <b>Responsiveness</b> - Checked with Chromes built in (right-click -> inspect) and also manually on laptop/smartphone/big screen.
 
+<b>public testing</b> - Sent out the live page to group of people that this webpage mainly aims to when I got the answers from the managers. The response was very good from visitors, that found it easy to navigate through the webpage.
 <hr>
 
 # Deployment
