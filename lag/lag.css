@@ -1,22 +1,23 @@
 img#logo {
-    float:right;
+    float: right;
     max-width: 150px;
-	height: auto;
+    height: auto;
 }
 
 a#link {
-	text-decoration: none;
-	color: #000000;
+    text-decoration: none;
+    color: #000000;
     font-weight: bold;
 }
 
-h1,span {
+h1,
+span {
     font-family: Verdana;
     font-style: normal;
 }
 
 h1 {
-    font-size: x-large;    
+    font-size: x-large;
 }
 
 span {
@@ -25,46 +26,46 @@ span {
 }
 
 span#svar {
-    font-size:small;
-    font-style:italic;
+    font-size: small;
+    font-style: italic;
 }
 
-#sommen  {
-    color:#003499;
+#sommen {
+    color: #003499;
     font-weight: bold;
 }
 
-#annebergs  {
-    color:#0067B2;
+#annebergs {
+    color: #0067B2;
     font-weight: bold;
 }
 
-#svart  {
-    color:#000000;
+#svart {
+    color: #000000;
     font-weight: bold;
 }
 
-#ekenassjon  {
-    color:#E31D1A;
+#ekenassjon {
+    color: #E31D1A;
     font-weight: bold;
 }
 
-#balaryd  {
-    color:#36A544;
+#balaryd {
+    color: #36A544;
     font-weight: bold;
 }
 
-#holsby  {
-    color:#D01014;
+#holsby {
+    color: #D01014;
     font-weight: bold;
 }
 
-#eksjo  {
+#eksjo {
     color: #9E293C;
     font-weight: bold;
 }
 
-#lekeryd  {
+#lekeryd {
     color: #154F99;
     font-weight: bold;
 }
@@ -73,5 +74,3 @@ span#svar {
     color: #C3170B;
     font-weight: bold;
 }
-
-

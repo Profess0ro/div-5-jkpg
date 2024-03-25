@@ -1,17 +1,18 @@
 /* to select class use . and # for id*/
 
 body {
-font-size: medium;
-font-family: verdana;
-text-align: justify;
+	font-size: medium;
+	font-family: verdana;
+	text-align: justify;
 }
 
 h2 {
 	color: #81BA5F;
 }
 
-H3,li {
-	text-align:left;
+H3,
+li {
+	text-align: left;
 }
 
 li {
@@ -31,58 +32,59 @@ a#link {
 
 footer {
 	margin-top: 20px;
-	
+
 }
+
 /* Grayscale hover on images */
 img.logos {
-	filter: grayscale(1) ;
-	}
-
-	img.logos:hover {
-	filter: grayscale(0);
-	}
-
-
-	#input {
-		border-style: solid;
-		padding: 5px;
-		width: auto;
-	}
-
-.iframe 
-{
-background-color: white;
-align-content: center;
-margin-left: 250px;
-margin-right: 250px;
+	filter: grayscale(1);
 }
 
-.logomeny
-{
-	
+img.logos:hover {
+	filter: grayscale(0);
+}
+
+
+#input {
+	border-style: solid;
+	padding: 5px;
+	width: auto;
+}
+
+.iframe {
+	background-color: white;
+	align-content: center;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
+.logomeny {
+
 	margin-left: 250px;
 	margin-right: 250px;
 }
 
 /* texten som skrivs i formuläret */
 input[type="text"] {
-    background-color: #81BA5F;
-    color: #FFFFFF;
-    
+	background-color: #81BA5F;
+	color: #FFFFFF;
+
 }
 
 input[type="placeholder"] {
-    color: #FFFFFF;
+	color: #FFFFFF;
 }
+
 /* knappen för att skicka in svar */
 input[type="submit"] {
 
-    background-color: #81BA5F;
-    color: white;
-    border: none;
-    border-radius: 2px;
+	background-color: #81BA5F;
+	color: white;
+	border: none;
+	border-radius: 2px;
 }
+
 input:focus {
-    background-color: #00fa25;
-    color: black;
+	background-color: #00fa25;
+	color: black;
 }
