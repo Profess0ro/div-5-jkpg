@@ -85,6 +85,8 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 
  - The header picture are from https://tranastidning.se/
 
+ - Favicon downloaded from https://favicon.io/emoji-favicons/soccer-ball/
+
 
 <hr>
 
@@ -123,7 +125,8 @@ This website is built in Visual Studio Code and published to GitHub using comman
 - https://www.vecteezy.com/free-vector/soccer-pitch - background picture
 - absorbed some codes through Code Institutes challenges but most of the codes used are from knowledge before (selflearned with https://javascript.nu/ years back)
 - https://www.w3schools.com/ for a searching after css attributes.
-- mail and text messages with the managers is how I´ve got the information for the teams pages.
+- Mail and text messages with the managers is how I´ve got the information for the teams pages.
+- https://favicon.io/emoji-favicons/soccer-ball/ - Favicon
 <hr>
 
 # Mentions
