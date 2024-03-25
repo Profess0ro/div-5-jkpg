@@ -4,7 +4,10 @@ body {
 font-size: medium;
 font-family: verdana;
 text-align: justify;
+}
 
+h2 {
+	color: #81BA5F;
 }
 
 H3,li {
@@ -43,7 +46,7 @@ img.logos {
 	#input {
 		border-style: solid;
 		padding: 5px;
-		width: 600px;
+		width: auto;
 	}
 
 .iframe 
