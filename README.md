@@ -128,7 +128,6 @@ This website is built in Visual Studio Code and published to GitHub using comman
 
 # Mentions
 
-- Jörgen Jonsson & Erik Guldbrand who welcomed and helped me with git commands and how to think in the beginning.
-
-
+- [Jörgen Jonsson](https://app.slack.com/client/T0L30B202/D06QHCBJF5X) & [Erik Guldbrand](https://app.slack.com/client/T0L30B202/D06Q3PZC22V) who welcomed and helped me with git commands and how to think in the beginning.
+- [Mark Nevison](https://app.slack.com/client/T0L30B202/D06QN5856BH) for reviewing this project and guiding me to fix some issues.
 
