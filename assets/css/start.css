@@ -63,6 +63,9 @@ flex-basis: 200px;
 
 #start iframe {
 	width: 80%;
+	height:200px; 
+	border:none;
+	overflow:hidden; 
 	}
 
 #start-info,
