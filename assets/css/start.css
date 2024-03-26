@@ -1,0 +1,122 @@
+/* to select class use . and # for id*/
+
+body {
+	font-size: medium;
+	font-family: verdana;
+	text-align: justify;
+}
+
+h2 {
+	color: #81BA5F;
+}
+
+H3,
+li {
+	text-align: left;
+}
+
+li {
+	font-style: italic;
+}
+
+#film {
+	float: top;
+	margin-bottom: 10px;
+}
+
+/* färg på mail-länken */
+a#link {
+	text-decoration: none;
+	color: #81BA5F;
+}
+
+footer {
+	margin-top: 20px;
+
+}
+
+/* Grayscale hover on images */
+img.logos {
+	filter: grayscale(1);
+}
+
+img.logos:hover {
+	filter: grayscale(0);
+}
+
+
+#input {
+	border-style: solid;
+	padding: 5px;
+	width: auto;
+}
+
+.iframe {
+	background-color: white;
+	align-content: center;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
+.logomeny {
+
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
+#contact {
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+#contact div {
+border: 2px solid #81BA5F;
+border-radius: 2%;
+padding: 15px;
+text-align: center;
+flex-grow: 1;
+}
+
+#contact-info,
+#contact-mailme,
+#form {
+	display: flex;
+	flex-direction: row;
+	flex-basis: 200px;
+}
+
+/* texten som skrivs i formuläret */
+input[type="text"] {
+	background-color: #81BA5F;
+	color: #FFFFFF;
+	width: 100px;
+
+}
+
+input[type="placeholder"] {
+	color: #FFFFFF;
+}
+
+/* knappen för att skicka in svar */
+input[type="submit"] {
+
+	background-color: #81BA5F;
+	color: white;
+	border: none;
+	border-radius: 2px;
+}
+
+input:focus {
+	background-color: #00fa25;
+	color: black;
+}
+
+@media screen and (min-width: 992px) {
+	#contact-info,
+#contact-mailme {
+	display: flex;
+	flex-direction: row;
+	flex-basis: 300px;
+	
+}
+}
