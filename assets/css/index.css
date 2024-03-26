@@ -17,7 +17,7 @@ header {
 
 footer {
 	margin-top: 10px;
-	background-color: white;
+	background-color: #FFFFFF;
 	margin-left: 10%;
 	margin-right: 10%;
 	}
@@ -31,7 +31,7 @@ footer p {
 /* content area */
 .iframe 
 {
-background-color: white;
+background-color: #FFFFFF;
 align-content: center;
 margin-left: 10%;
 margin-right: 10%;
@@ -100,14 +100,14 @@ input[type="text"] {
 
 input[type="submit"] {
 	background-color: #81BA5F;
-    color: white;
+    color: #FFFFFF;
     border: none;
     border-radius: 2px;
 }
 
 input:focus {
     background-color: #00fa25;
-    color: black;
+    color: #000000;
 }
 
 @media screen and (min-width: 420px) {

@@ -118,7 +118,7 @@ input[type="placeholder"] {
 input[type="submit"] {
 
 	background-color: #81BA5F;
-	color: white;
+	color: #FFFFFF;
 	border: none;
 	border-radius: 2px;
 	margin-left: 25%;
@@ -127,7 +127,7 @@ input[type="submit"] {
 
 input:focus {
 	background-color: #00fa25;
-	color: black;
+	color: #000000;
 }
 
 /* adding margins to divs on start page + enlarger videoframe on bigger screens*/
