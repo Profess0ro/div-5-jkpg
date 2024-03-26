@@ -3,7 +3,7 @@
 body {
 	font-size: medium;
 	font-family: verdana;
-	text-align: justify;
+	
 }
 
 h2 {
@@ -45,11 +45,7 @@ img.logos:hover {
 }
 
 
-#input {
-	border-style: solid;
-	padding: 5px;
-	width: auto;
-}
+
 
 .iframe {
 	background-color: white;
@@ -75,10 +71,13 @@ img.logos:hover {
 #start div {
 border: 2px solid #81BA5F;
 border-radius: 2%;
-padding: 15px;
 flex-grow: 1;
 flex-direction: column;
 align-items: center;
+padding: 10px;
+margin-bottom: 5px;
+flex-basis: 200px;
+
 
 }
 
@@ -86,12 +85,9 @@ align-items: center;
 	text-align: center;
 }
 
-#start p {
-	text-align: justify;
-	top: 0;
-}
 #start iframe {
-	align-content: space-between;
+	width: 80%;
+	
 }
 
 #start-info,
@@ -99,13 +95,11 @@ align-items: center;
 #start-video,
 #input {
 	display: flex;
-	flex-direction: row;
-	flex-basis: 200px;
-}
+	
+	}
 
-#start-info {
-	top: 0;
-}
+
+
 
 
 #contact {
@@ -119,15 +113,10 @@ border-radius: 2%;
 padding: 15px;
 text-align: center;
 flex-grow: 1;
+justify-content: space-around;
 }
 
-#contact-info,
-#contact-mailme
- {
-	display: flex;
-	flex-direction: row;
-	flex-basis: 200px;
-}
+
 
 /* texten som skrivs i formuläret */
 input[type="text"] {
@@ -154,30 +143,14 @@ input:focus {
 	background-color: #00fa25;
 	color: black;
 }
-@media screen and (max-width: 768px) {
- 
 
 
-#start div {
-	flex-direction: column;
-	padding: 10px;
-	width: 80%;
-	font-size: 90%;
-	text-align: center
+@media screen and (min-width: 600px) {
+	#start div{
+		margin: 5px;
 	}
 
-#start iframe {
-	width: 180px;
-}
-}
-@media screen and (min-width: 992px) {
-	#contact-info,
-#contact-mailme {
-	display: flex;
-	flex-direction: column;
-	flex-basis: 300px;
-	
-}
-
-
+	#start iframe {
+		width: 200px;
+	}
 }
