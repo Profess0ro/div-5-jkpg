@@ -85,7 +85,7 @@ a.nav {
 	text-decoration: none;
 	font-family:Verdana, sans-serif;
 	text-transform: uppercase;
-	font-size: 17px;
+	font-size: 13px;
 	
 }
 
@@ -117,3 +117,9 @@ input:focus {
     color: black;
 }
 
+@media screen and (min-width: 420px) {
+	
+	a.nav {
+		font-size: 17px;
+	}
+}
