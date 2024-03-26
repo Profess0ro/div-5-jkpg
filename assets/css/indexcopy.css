@@ -61,13 +61,13 @@ width:80%;
 img.logos {
 	filter: grayscale(1) ;
 	width: auto;
-	height: 25px;
+	height: 22px;
 	}
 
 img.logos:hover {
 	filter: grayscale(0);
 	width: auto;
-	height: 25px;
+	height: 22px;
 	}
 
 /* navigation with text */
