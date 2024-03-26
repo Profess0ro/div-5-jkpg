@@ -1,13 +1,13 @@
 /* This fixing the logo to float at the top right side of the text*/
 
-img#logo {
+img.logo {
     float: right;
     max-width: 150px;
     height: auto;
 }
 
 /* Links to rescent games */
-a#link {
+a.link {
     text-decoration: none;
     color: #000000;
     font-weight: bold;
@@ -29,54 +29,54 @@ span {
     text-align: justify;
 }
 /* Answers of the teams */
-span#svar {
+span.svar {
     font-size: small;
     font-style: italic;
 }
 
-/*Teams font-colors */
+/*Teams font-colors*/
 
-#sommen {
+.sommen {
     color: #003499;
     font-weight: bold;
 }
 
-#annebergs {
+.annebergs {
     color: #0067B2;
     font-weight: bold;
 }
 
-#svart {
+.svart {
     color: #000000;
     font-weight: bold;
 }
 
-#ekenassjon {
+.ekenassjon {
     color: #E31D1A;
     font-weight: bold;
 }
 
-#balaryd {
+.balaryd {
     color: #36A544;
     font-weight: bold;
 }
 
-#holsby {
+.holsby {
     color: #D01014;
     font-weight: bold;
 }
 
-#eksjo {
+.eksjo {
     color: #9E293C;
     font-weight: bold;
 }
 
-#lekeryd {
+.lekeryd {
     color: #154F99;
     font-weight: bold;
 }
 
-#solberga {
+.solberga {
     color: #C3170B;
     font-weight: bold;
 }
