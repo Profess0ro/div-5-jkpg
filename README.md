@@ -68,7 +68,7 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 
 # Problems I encountered
 
-- my biggest issue with this structure that I´ve chosen was to not have any scrollbar at the page at any type of screen. That was solved by having a height at the iframe of vh60%, so that the only scrollbar visual is in the iframe where all info is shown.
+- my biggest issue with this structure that I´ve chosen was to not have any scrollbar at the page at any type of screen. That was solved by having a height for the iframe with vh , so that the only scrollbar visual is in the iframe where all info is shown.
 - a smaller problem was the navigation with all the the logos so they won´t change any size on any screensize, they just create more rows on the screen. First I thought that would be a problem on mobile phones, but when I looked at the page in my phone that didn´t disturb anything and was easier to navigate when they didn´t change size. If the logos had been smaller on smaller screens it would have been harder to navigate to all team pages.
 
 <hr>
