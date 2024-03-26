@@ -1,7 +1,7 @@
 # Division 5 Norra
 
 
-<img src="pics/readme/responsive.png" alt="responsive" width="800">
+<img src="assets/pics/readme/responsive.png" alt="responsive" width="800">
 
 ### This is a website I´ve made focusing on the pre-season for a local soccer league in the area of Jönköping.
 
@@ -25,13 +25,13 @@ The users will be provided first hand information from the managers/teamleaders 
 
 ### Header
 
-<img src="pics/readme/header.png">
+<img src="assets/pics/readme/header.png">
 
 This is a picture from a local game that a local paper put in an article.
 
 ### Navigation
 
-<img src="pics/readme/nav.png">
+<img src="assets/pics/readme/nav.png">
 
 1. Here I´ve put a navigation to all the teams info in a seperated navigation bar. 
 2. Here is a smaller navigation bar to pages outside the teams information.
@@ -41,13 +41,13 @@ This is a picture from a local game that a local paper put in an article.
 
 ### Home
 
-<img src="pics/readme/home.png">
+<img src="assets/pics/readme/home.png">
 
 Here is an introduction to what you can expect to find on this website to all visitors. Also an old commercial the swedish channel "TV6" did for Champions League at a local game.
 
 ### Team pages
 
-<img src="pics/readme/teampage.png">
+<img src="assets/pics/readme/teampage.png">
 
 On every teams page the color on the text changes to the color that mainly is in their logo. 
 Here you can read the answers that the managers has been provided and links to rescent game summaries.
@@ -60,7 +60,7 @@ Here is information how to contact me if there´s more content that the visitors
 
 # Structure
 
-<img src="pics/readme/structure.png">
+<img src="assets/pics/readme/structure.png">
 
 As you can see in this picture all links to team pages at nav1 is targeting the iframe, thats a method I´ve learned years ago and doesn´t need to load a whole new url every time you click on a link. The exceptions is "standings" at nav2 (opens in a new window/tab) and changing language at the home page (opens on top).
 
@@ -100,10 +100,10 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 # Testing
 
 <b>HTML</b> - Went through without fails ( https://validator.w3.org )
-<img src="pics/readme/w3c.png">
+<img src="assets/pics/readme/w3c.png">
 
 <b>CSS</b> - Went through without fails ( https://jigsaw.w3.org/css-validator )
-<img src="pics/readme/jigsaw.png">
+<img src="assets/pics/readme/jigsaw.png">
 
 <b>Responsiveness</b> - Checked with Chromes built in (right-click -> inspect) and also manually on laptop/smartphone/big screen.
 
