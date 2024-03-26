@@ -2,6 +2,7 @@ body {
 	background-image: url("../pics/field.jpg");
 	font-family:  verdana;
 	font-size: medium;
+	height: 90vh;
   }
 
 img.headerbild {
@@ -36,17 +37,23 @@ background-color: white;
 align-content: center;
 margin-left: 10%;
 margin-right: 10%;
-height:55vh;
+height:50vh;
 width:80%;
 }
 
 /* div with all clubsigns */
 .logomeny
 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: center;
 	background-color: #FFFFFF;
 	margin-bottom: 3px;
 	margin-left: 10%;
- 	margin-right: 10%;	
+ 	margin-right: 10%;
+	padding: 10px;	
 
 }
 
@@ -70,7 +77,8 @@ img.logos:hover {
  	margin-right: 10%;
 	height: 20px;
 	margin-top: 3px;
-	text-align: justify;
+	text-align: center;
+	padding-left: 10px;
 	}
 
 a.nav {
