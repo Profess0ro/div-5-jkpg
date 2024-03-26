@@ -64,6 +64,32 @@ img.logos:hover {
 	margin-right: 250px;
 }
 
+#start {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	
+	
+}
+#start div {
+border: 2px solid #81BA5F;
+border-radius: 2%;
+padding: 15px;
+flex-grow: 1;
+}
+#start p,iframe {
+	text-align: justify;
+	top: 0;
+}
+
+#start-info,
+#start-what,
+#start-video {
+	display: flex;
+	flex-direction: row;
+	flex-basis: 170px;
+}
+
 #contact {
 	display: flex;
 	flex-wrap: wrap;
@@ -110,7 +136,19 @@ input:focus {
 	background-color: #00fa25;
 	color: black;
 }
+@media screen and (max-width: 768px) {
+ 
 
+#start div {
+	flex-direction: column;
+	padding: 1px;
+	width: 80%;
+	font-size: 90%;
+	}
+#start iframe {
+	width: 180px;
+}
+}
 @media screen and (min-width: 992px) {
 	#contact-info,
 #contact-mailme {
