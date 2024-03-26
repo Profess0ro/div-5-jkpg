@@ -1,9 +1,12 @@
+/* This fixing the logo to float at the top right side of the text*/
+
 img#logo {
     float: right;
     max-width: 150px;
     height: auto;
 }
 
+/* Links to rescent games */
 a#link {
     text-decoration: none;
     color: #000000;
@@ -16,19 +19,22 @@ span {
     font-style: normal;
 }
 
+/* Names of the team */
 h1 {
     font-size: x-large;
 }
-
+/* Questions to the teams */
 span {
     font-size: medium;
     text-align: justify;
 }
-
+/* Answers of the teams */
 span#svar {
     font-size: small;
     font-style: italic;
 }
+
+/*Teams font-colors */
 
 #sommen {
     color: #003499;

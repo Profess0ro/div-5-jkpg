@@ -1,51 +1,29 @@
-/* to select class use . and # for id*/
-
 body {
 	font-size: medium;
 	font-family: verdana;
-	
-}
+	}
 
 h2 {
 	color: #81BA5F;
-}
-
-H3,
-li {
-	text-align: left;
 }
 
 li {
 	font-style: italic;
 }
 
-#film {
-	float: top;
-	margin-bottom: 10px;
-}
 
-/* färg på mail-länken */
+/* Mail me link */
 a#link {
 	text-decoration: none;
 	color: #81BA5F;
 }
 
+/* Creating a gap between iframe and footer */
 footer {
 	margin-top: 20px;
-
 }
 
-/* Grayscale hover on images */
-img.logos {
-	filter: grayscale(1);
-}
-
-img.logos:hover {
-	filter: grayscale(0);
-}
-
-
-
+/* Content area */
 
 .iframe {
 	background-color: white;
@@ -54,20 +32,20 @@ img.logos:hover {
 	margin-right: 250px;
 }
 
+/* putting logos into the middle */
 .logomeny {
-
 	margin-left: 250px;
 	margin-right: 250px;
 }
 
+
+/* Front page divs*/
 #start {
 	display: flex;
 	flex-wrap: wrap;
-	
+	}
 
-	
-	
-}
+
 #start div {
 border: 2px solid #81BA5F;
 border-radius: 2%;
@@ -77,8 +55,6 @@ align-items: center;
 padding: 10px;
 margin-bottom: 5px;
 flex-basis: 200px;
-
-
 }
 
 #start h3, p {
@@ -87,23 +63,20 @@ flex-basis: 200px;
 
 #start iframe {
 	width: 80%;
-	
-}
+	}
 
 #start-info,
 #start-what,
 #start-video,
 #input {
 	display: flex;
-	
 	}
 
-
+	/* Contact div */
 #contact {
 	display: flex;
-	flex-wrap: wrap;
-	
 }
+
 #contact div {
 border: 2px solid #81BA5F;
 border-radius: 2%;
@@ -115,7 +88,7 @@ justify-content: space-around;
 
 
 
-/* texten som skrivs i formuläret */
+/* form inputs */
 input[type="text"] {
 	background-color: #81BA5F;
 	color: #FFFFFF;
@@ -127,7 +100,7 @@ input[type="placeholder"] {
 	color: #FFFFFF;
 }
 
-/* knappen för att skicka in svar */
+/* submit button */
 input[type="submit"] {
 
 	background-color: #81BA5F;
@@ -141,7 +114,7 @@ input:focus {
 	color: black;
 }
 
-
+/* adding margins to divs on start page + enlarger videoframe on bigger screens*/
 @media screen and (min-width: 600px) {
 	#start div{
 		margin: 5px;
