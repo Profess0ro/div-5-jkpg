@@ -12,9 +12,12 @@ body {
 	font-family: verdana;
 }
 /* responsiveness to header image */
-img.headerbild {
+.headerbild {
 	width: 100%;
 	height: auto;
+}
+header {
+	margin-top: 20px;
 }
 .white-background {
 	background-color: #FFFFFF;
