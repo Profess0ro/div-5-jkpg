@@ -2,55 +2,36 @@ body {
 	font-size: medium;
 	font-family: verdana;
 	}
-
-.formanswer {
-	text-align: center;
+.text-center {
+	text-align: center
 }
+.green-text {color: #81BA5F;}
 
-h2 {
-	color: #81BA5F;
-}
+.flex {display: flex;}
 
-li {
+ul {
 	font-style: italic;
+	text-align: left;
 }
+
 
 
 /* Mail me link */
-a#link {
+a.link {
 	text-decoration: none;
-	color: #81BA5F;
 }
 
-/* Creating a gap between iframe and footer */
-footer {
-	margin-top: 20px;
-}
 
-/* Content area */
-
-.iframe {
-	background-color: white;
-	align-content: center;
-	margin-left: 250px;
-	margin-right: 250px;
-}
-
-/* putting logos into the middle */
-.logomeny {
-	margin-left: 250px;
-	margin-right: 250px;
-}
 
 
 /* Front page divs*/
-#start {
+.start {
 	display: flex;
 	flex-wrap: wrap;
 	}
 
 
-#start div {
+.start div {
 border: 2px solid #81BA5F;
 border-radius: 2%;
 flex-grow: 1;
@@ -61,11 +42,8 @@ margin-bottom: 5px;
 flex-basis: 200px;
 }
 
-#start h3, p {
-	text-align: center;
-}
 
-#start iframe {
+.start iframe {
 	width: 80%;
 	height:200px; 
 	border:none;
@@ -73,44 +51,29 @@ flex-basis: 200px;
 	}
 
 
-
-#start-info,
-#start-what,
-#start-video,
-#input {
-	display: flex;
-	}
-
 form {
-	margin-top: 0;
-	margin-left: 10%;
-	margin-right: 10%;
+	display: block;
 }
 
 	/* Contact div */
-#contact {
-	display: flex;
+.contact {
+	display: block
 }
 
-#contact div {
+.contact div {
 border: 2px solid #81BA5F;
 border-radius: 2%;
 padding: 15px;
-text-align: center;
 flex-grow: 1;
 justify-content: space-around;
 }
 
-#input-select {
-	margin-left: 15%;
-}
 
 /* form inputs */
 input[type="text"] {
 	background-color: #81BA5F;
 	color: #FFFFFF;
 	width: 108px;
-	margin-left: 25%;
 
 }
 
@@ -125,7 +88,6 @@ input[type="submit"] {
 	color: #FFFFFF;
 	border: none;
 	border-radius: 2px;
-	margin-left: 25%;
 	
 }
 

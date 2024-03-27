@@ -68,14 +68,6 @@ a.nav:hover {
 	color:#81BA5F;
 	font-weight: bold;
 }
-input {
-	background-color: #81BA5F;
-	color: #FFFFFF;
-}
-input:focus {
-	background-color: #00fa25;
-	color: #000000;
-}
 @media screen and (max-width: 767px) {
 	.checkbtn {
 		display: block;
