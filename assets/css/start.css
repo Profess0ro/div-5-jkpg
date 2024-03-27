@@ -83,9 +83,7 @@ input[type="submit"] {
 
 	background-color: #81BA5F;
 	color: #FFFFFF;
-	border: none;
-	border-radius: 2px;
-	
+	border: none;	
 }
 
 input:focus {
@@ -93,13 +91,8 @@ input:focus {
 	color: #000000;
 }
 
-/* adding margins to divs on start page + enlarger videoframe on bigger screens*/
-@media screen and (min-width: 600px) {
-	#start div{
-		margin: 5px;
-	}
 
-	#start iframe {
-		width: 200px;
-	}
+
+@media screen and (min-width: 768px) {
+
 }

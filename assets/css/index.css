@@ -132,4 +132,7 @@ a.nav:hover {
     img.logos:hover {
 		height: 50px;
 	}
+	.iframe {
+		height:60vh;
+   }
 }
