@@ -1,80 +1,64 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
-<head>
-  <link rel="stylesheet" href="assets/css/start.css" type="text/css">
-  <title>Landing page</title>
-</head>
-
-<body>
-
-  <div>
-    <a href="index.html" target="_top"><img alt="swedish flag" src="assets/pics/swe.png"></a>
-    <a href="eng/english.html" target="_top"><img alt="english flag" src="assets/pics/eng.png"></a>
+  <head>
+    <link rel="stylesheet" href="assets/css/start.css" type="text/css">
+    <title>Landing page</title>
+  </head>
+  <body>
+    <div>
+      <a href="index.html" target="_top"><img alt="swedish flag" src="assets/pics/swe.png"></a>
+      <a href="eng/english.html" target="_top"><img alt="english flag" src="assets/pics/eng.png"></a>
     </div>
-    
-      <div class="start text-center flex">
+    <div class="start text-center flex">
       <div class="flex columns">
-        
         <h3>Hej och välkommen till denna sida om Division 5 Norra säsongen 2024!</h3>
-    
         <p>Denna sida är skapad för dig som står på läktarna och hejar fram era lokala lag samt spelare och tränare.
-      Jag som skapat denna sida har själv spelat fotboll mycket i denna region så känner till de flesta lagen,
-      nu har jag lagt skorna på hyllan men följer fortfarande den lokala fotbollen. </p>
+          Jag som skapat denna sida har själv spelat fotboll mycket i denna region så känner till de flesta lagen,
+          nu har jag lagt skorna på hyllan men följer fortfarande den lokala fotbollen. 
+        </p>
+      </div>
+      <div class="flex columns">
+        <p>Här kommer ni att kunna:</p>
+        <ul>
+          <li>läsa kommentarer ifrån alla lags tränare om säsongen</li>
+          <li>se statistik</li>
+          <li>se resultat</li>
+        </ul>
+      </div>
+      <div class="flex columns">
+        <p>För att tagga till lite så kan ni se den här härliga reklamen som TV6 gjorde 2019 om Champions League ifrån
+          Bälaryds match mot Lommaryd<br><br>
+          <iframe class="video"
+            src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Ftv6sverige%2Fvideos%2F1242008475962124%2F&show_text=false&width=476&t=0"
+            ></iframe>
+        </p>
+      </div>
+      <div class="input columns">
+        <form class="text-center block" method="get" action="formanswer.html" target="_self">
+          <p><strong>Vilka tror du kommer att vinna Division 5 Norra säsongen 2024?</strong></p>
+          <select id="input-select">
+            <option value="Annebergs GIF">Välj lag</option>
+            <option value="Annebergs GIF">Annebergs GIF</option>
+            <option value="Bäckseda IF">Bäckseda IF</option>
+            <option value="Bälaryds IK">Bälaryds IK</option>
+            <option value="Ekenässjöns IF">Ekenässjöns IF</option>
+            <option value="Holsby SK">Holsby SK</option>
+            <option value="Höreda GOIF">Höreda GOIF</option>
+            <option value="IF Eksjö Fotboll">IF Eksjö Fotboll</option>
+            <option value="Lekeryd-Svarttorps SK">Lekeryd-Svarttorps SK</option>
+            <option value="Solberga GoIF">Solberga GoIF</option>
+            <option value="Sommens AIF">Sommens AIF</option>
+            <option value="Torpa AIS">Torpa AIS</option>
+            <option value="Örserums IK">Örserums IK</option>
+          </select>
+          <br><br>
+          <input id="name-field" type="text" name="full_name" placeholder="Ditt namn" required>
+          <br>
+          <input id="ort-field" type="text" name="email" placeholder="Ort" required>
+          <br>
+          <input type="submit" value="Skicka in ditt svar">
+        </form>
+      </div>
     </div>
-    <div class="flex columns">
-      <p>Här kommer ni att kunna:</p>
-    <ul>
-      <li>läsa kommentarer ifrån alla lags tränare om säsongen</li>
-      <li>se statistik</li>
-      <li>se resultat</li>
-    </ul>
-
-    
-  </div>
-  
-
-  <div class="flex columns">
-    <p>För att tagga till lite så kan ni se den här härliga reklamen som TV6 gjorde 2019 om Champions League ifrån
-      Bälaryds match mot Lommaryd<br><br>
-    <iframe class="video"
-      src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Ftv6sverige%2Fvideos%2F1242008475962124%2F&show_text=false&width=476&t=0"
-      ></iframe></p>
-  </div>
-  <div class="input columns">
-  <form class="text-center block" method="get" action="formanswer.html" target="_self">
-    
-      <p><strong>Vilka tror du kommer att vinna Division 5 Norra säsongen 2024?</strong></p>
-
-
-      <select id="input-select">
-        <option value="Annebergs GIF">Välj lag</option>
-        <option value="Annebergs GIF">Annebergs GIF</option>
-        <option value="Bäckseda IF">Bäckseda IF</option>
-        <option value="Bälaryds IK">Bälaryds IK</option>
-        <option value="Ekenässjöns IF">Ekenässjöns IF</option>
-        <option value="Holsby SK">Holsby SK</option>
-        <option value="Höreda GOIF">Höreda GOIF</option>
-        <option value="IF Eksjö Fotboll">IF Eksjö Fotboll</option>
-        <option value="Lekeryd-Svarttorps SK">Lekeryd-Svarttorps SK</option>
-        <option value="Solberga GoIF">Solberga GoIF</option>
-        <option value="Sommens AIF">Sommens AIF</option>
-        <option value="Torpa AIS">Torpa AIS</option>
-        <option value="Örserums IK">Örserums IK</option>
-      </select>
-      <br><br>
-      <input id="name-field" type="text" name="full_name" placeholder="Ditt namn" required>
-      <br>
-      <input id="ort-field" type="text" name="email" placeholder="Ort" required>
-      <br>
-      <input type="submit" value="Skicka in ditt svar">
-  
-    </form>
-  </div>
-
-</div>
-
-
-</body>
-
+  </body>
 </html>
