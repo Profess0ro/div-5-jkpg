@@ -18,6 +18,13 @@ img.headerbild {
 	width: 88.9%;
 	height: auto;
 }
+.white-background {
+	background-color: #FFFFFF;
+}
+
+.margin-left {
+	margin-left: 10%;
+}
 
 header {
 	margin-left: 10%;	
@@ -150,6 +157,7 @@ input:focus {
 }
 
 ul {
+	width: 80%;
 	position: fixed;
 	background: #FFFFFF;
 	text-align: center;
@@ -161,7 +169,7 @@ nav ul li {
 }
 .logomeny,
 nav ul li a {
-	font-size: 19px;
+	font-size: 18px;
 }
 
 #check:checked ~ ul {
@@ -169,15 +177,7 @@ nav ul li a {
 }
 }
 
-@media screen and (min-width: 420px) {
-	
-	a.nav {
-		font-size: 19px;
-	}
-	.meny {
-		padding-bottom: 0;
-	}
-}
+
 @media screen and (min-width: 768px) {
 
 	.meny {
@@ -211,4 +211,15 @@ height:50vh;
  	margin-right: 10%;
 	padding: 10px;	
 }
+img.logos {
+	height: 40px;
+	}
+}
+
+@media screen and (min-width: 1023px) {
+
+	img.logos {
+		height: 50px;
+	}
+
 }
