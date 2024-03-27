@@ -8,10 +8,12 @@ body {
     max-width: 150px;
     height: auto;
 }
+.bold {
+    font-weight: bold;
+}
 .link {
     text-decoration: none;
     color: #000000;
-    font-weight: bold;
 }
 h1 {
     font-size: 25px;
@@ -27,37 +29,37 @@ span {
 /*Teams font-colors*/
 .sommen {
     color: #003499;
-    font-weight: bold;
+
 }
 .annebergs {
     color: #0067B2;
-    font-weight: bold;
+
 }
 .svart {
     color: #000000;
-    font-weight: bold;
+
 }
 .ekenassjon {
     color: #E31D1A;
-    font-weight: bold;
+
 }
 .balaryd {
     color: #36A544;
-    font-weight: bold;
+
 }
 .holsby {
     color: #D01014;
-    font-weight: bold;
+
 }
 .eksjo {
     color: #9E293C;
-    font-weight: bold;
+
 }
 .lekeryd {
     color: #154F99;
-    font-weight: bold;
+
 }
 .solberga {
     color: #C3170B;
-    font-weight: bold;
+
 }

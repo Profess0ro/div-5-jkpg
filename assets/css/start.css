@@ -6,7 +6,7 @@ body {
 	text-align: center 
 }
 .green-text {
-   color: #81BA5F;
+	color: #81BA5F;
 }
 .flex {
 	display: flex;
@@ -18,7 +18,6 @@ ul {
 	font-style: italic;
 	text-align: left;
 }
-
 /* Mail me link */
 a.link {
 	text-decoration: none;
@@ -65,4 +64,3 @@ input[type="submit"] {
 	color: #FFFFFF;
 	border: none;
 }
-

@@ -125,16 +125,15 @@ a.nav:hover {
 		width: auto;
 		height: 40px;
    }
-
 }
 @media screen and (min-width: 1023px) {
-	/* Enlarging logos on laptop and bigger screens */
+   /* Enlarging logos on laptop and bigger screens */
 	img.logos {
 		height: 50px;
    }
-    img.logos:hover {
+	img.logos:hover {
 		height: 50px;
-	}
+   }
 	.iframe {
 		height:55vh;
    }
