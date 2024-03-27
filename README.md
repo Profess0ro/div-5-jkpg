@@ -117,7 +117,7 @@ This website is built in Visual Studio Code and published to GitHub using comman
 <hr>
 
 # Source reference
-
+- https://www.youtube.com/watch?v=oLgtucwjVII - This tutorial guided me to create a navbar for smallest screens
 - https://tranastidning.se/ - header picture.
 - https://smalandsfotbollen.se/ - team logos, rescent scores and last years placements.
 - https://validator.w3.org/ - testing HTML
@@ -130,7 +130,7 @@ This website is built in Visual Studio Code and published to GitHub using comman
 <hr>
 
 # Mentions
-
+- [Rohit Sharma](https://app.slack.com/client/T0L30B202/D06Q6HHFBE0) - My mentor, who guided me well to fix issues.
 - [Jörgen Jonsson](https://app.slack.com/client/T0L30B202/D06QHCBJF5X) & [Erik Guldbrand](https://app.slack.com/client/T0L30B202/D06Q3PZC22V) who welcomed and helped me with git commands and how to think in the beginning.
 - [Mark Nevison](https://app.slack.com/client/T0L30B202/D06QN5856BH) for reviewing this project and guiding me to fix some issues.
 - [Dajana Isbaner](https://code-institute-room.slack.com/team/U060C7Q4W8L) for reviewing and helping me with margins!
