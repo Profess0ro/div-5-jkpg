@@ -42,13 +42,14 @@ footer {
 	margin-top: 10px;
 	font-size: 12px;
 }
-/* content area */
+/* the area where all pages are guided to */
 .iframe {
 	align-content: center;
 	height:70vh;
 	width:80%;
 	border: none;
 }
+/* navbar for smallest devices up to 767px width*/
 nav ul{
 	float: right;
 	margin-right: 20px;
@@ -61,6 +62,7 @@ nav ul li a{
 	cursor: pointer;
 	padding-left: 10px;
 }
+/* disabling menu for screens larger than 768px*/
 .meny, .logomeny, #check, .checkbtn {
 	display: none;
 }
@@ -73,6 +75,7 @@ a.nav:hover {
 	font-weight: bold;
 }
 @media screen and (max-width: 767px) {
+	/* Values for navbar under 767px width*/
 	.checkbtn {
 		display: block;
    }
@@ -81,7 +84,6 @@ a.nav:hover {
 		position: fixed;
 		text-align: center;
 		display: none;
-		transition: all .5s;
    }
 	nav ul li {
 		display: block;
@@ -94,6 +96,7 @@ a.nav:hover {
    }
 }
 @media screen and (min-width: 768px) {
+	/* These settings changing menu on screens wider than 768px*/
 	.meny {
 		display: block;
 		height: 20px;
@@ -102,9 +105,6 @@ a.nav:hover {
    }
 	.toggle-nav {
 		display: none;
-   }
-	.iframe {
-		height:70vh;
    }
 	.logomeny {
 		display: flex;
@@ -125,15 +125,19 @@ a.nav:hover {
 		width: auto;
 		height: 40px;
    }
+   .iframe {
+	height:70vh;
+}
 }
 @media screen and (min-width: 1023px) {
-   /* Enlarging logos on laptop and bigger screens */
+   /* Enlarging logos on screens wider than 1024px */
 	img.logos {
 		height: 50px;
    }
 	img.logos:hover {
 		height: 50px;
    }
+   /* Changing height on iframe on screens wider than 1024px*/
 	.iframe {
 		height:55vh;
    }

@@ -1,6 +1,6 @@
 body {
     font-family: Verdana;
-    text-align: justify;
+    text-align: left;
 }
 /* This fixing the logo to float at the top right side of the text with a fixed max-width*/
 .logo {
@@ -29,37 +29,28 @@ span {
 /*Teams font-colors*/
 .sommen {
     color: #003499;
-
 }
 .annebergs {
     color: #0067B2;
-
 }
 .svart {
     color: #000000;
-
 }
 .ekenassjon {
     color: #E31D1A;
-
 }
 .balaryd {
     color: #36A544;
-
 }
 .holsby {
     color: #D01014;
-
 }
 .eksjo {
     color: #9E293C;
-
 }
 .lekeryd {
     color: #154F99;
-
 }
 .solberga {
     color: #C3170B;
-
 }
