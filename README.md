@@ -117,6 +117,8 @@ This website is built in Visual Studio Code and published to GitHub using comman
 <hr>
 
 # Source reference
+- https://www.cleancss.com/css-beautify/ - formatting CSS files
+- https://www.freeformatter.com/html-formatter.html - Formatting HTML files
 - https://www.youtube.com/watch?v=oLgtucwjVII - This tutorial guided me to create a navbar for smallest screens
 - https://tranastidning.se/ - header picture.
 - https://smalandsfotbollen.se/ - team logos, rescent scores and last years placements.
