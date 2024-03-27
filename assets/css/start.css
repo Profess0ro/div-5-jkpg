@@ -67,29 +67,24 @@ justify-content: space-around;
 
 
 /* form inputs */
-input[type="text"] {
+input {
 	background-color: #81BA5F;
 	color: #FFFFFF;
 	width: 108px;
-
 }
-
-input[type="placeholder"] {
-	color: #FFFFFF;
+input:focus {
+	background-color: #00fa25;
+	color: #000000;
 }
-
 /* submit button */
 input[type="submit"] {
-
+	width: auto;
 	background-color: #81BA5F;
 	color: #FFFFFF;
 	border: none;	
 }
 
-input:focus {
-	background-color: #00fa25;
-	color: #000000;
-}
+
 
 
 
