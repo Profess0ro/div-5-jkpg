@@ -1,12 +1,13 @@
 body {
 	font-size: medium;
 	font-family: verdana;
-	}
-.text-center {
-	text-align: center
 }
-.green-text {color: #81BA5F;}
-
+.text-center {
+	text-align: center 
+}
+.green-text {
+   color: #81BA5F;
+}
 .flex {
 	display: flex;
 }
@@ -24,48 +25,32 @@ ul {
 .margin {
 	margin: 5px;
 }
-
-
-
 /* Mail me link */
 a.link {
 	text-decoration: none;
 }
-
-
-
-
 /* Front page divs*/
 .start {
 	flex-wrap: wrap;
-	}
-
-
-.columns {
-flex-grow: 1;
-flex-direction: column;
-align-items: center;
-padding: 10px;
-margin-bottom: 5px;
-flex-basis: 200px;
 }
-
-
+.columns {
+	flex-grow: 1;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	margin-bottom: 5px;
+	flex-basis: 200px;
+}
 .video {
 	height: 180px;
-	width: 170px; 
+	width: 170px;
 	border:none;
-	 }
-
-
-
-.contact div {
-padding: 15px;
-flex-grow: 1;
-justify-content: space-around;
 }
-
-
+.contact-center {
+	padding: 15px;
+	flex-grow: 1;
+	justify-content: space-around;
+}
 /* form inputs */
 input {
 	background-color: #81BA5F;
@@ -81,13 +66,6 @@ input[type="submit"] {
 	width: auto;
 	background-color: #81BA5F;
 	color: #FFFFFF;
-	border: none;	
+	border: none;
 }
 
-
-
-
-
-@media screen and (min-width: 768px) {
-
-}
