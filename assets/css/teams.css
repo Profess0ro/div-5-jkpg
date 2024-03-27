@@ -1,81 +1,62 @@
-/* This fixing the logo to float at the top right side of the text*/
-
-img.logo {
+body {
+    font-family: Verdana;
+    text-align: justify;
+}
+/* This fixing the logo to float at the top right side of the text with a fixed max-width*/
+.logo {
     float: right;
     max-width: 150px;
     height: auto;
 }
-
-/* Links to rescent games */
-a.link {
+.link {
     text-decoration: none;
     color: #000000;
     font-weight: bold;
 }
-
-h1,
-span {
-    font-family: Verdana;
-    font-style: normal;
-}
-
-/* Names of the team */
 h1 {
-    font-size: x-large;
+    font-size: 25px;
+    text-align: left;
 }
-/* Questions to the teams */
 span {
-    font-size: medium;
-    text-align: justify;
+    font-size: 15px;
 }
-/* Answers of the teams */
-span.svar {
-    font-size: small;
+.svar {
+    font-size: 13px;
     font-style: italic;
 }
-
 /*Teams font-colors*/
-
 .sommen {
     color: #003499;
     font-weight: bold;
 }
-
 .annebergs {
     color: #0067B2;
     font-weight: bold;
 }
-
 .svart {
     color: #000000;
     font-weight: bold;
 }
-
 .ekenassjon {
     color: #E31D1A;
     font-weight: bold;
 }
-
 .balaryd {
     color: #36A544;
     font-weight: bold;
 }
-
 .holsby {
     color: #D01014;
     font-weight: bold;
 }
-
 .eksjo {
     color: #9E293C;
     font-weight: bold;
 }
-
 .lekeryd {
     color: #154F99;
     font-weight: bold;
 }
-
 .solberga {
     color: #C3170B;
     font-weight: bold;
