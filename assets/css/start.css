@@ -18,13 +18,7 @@ ul {
 	font-style: italic;
 	text-align: left;
 }
-.border {
-	border: 2px solid #81BA5F;
-	border-radius: 2%;
-}
-.margin {
-	margin: 5px;
-}
+
 /* Mail me link */
 a.link {
 	text-decoration: none;
@@ -40,6 +34,9 @@ a.link {
 	padding: 10px;
 	margin-bottom: 5px;
 	flex-basis: 200px;
+	border: 2px solid #81BA5F;
+	border-radius: 2%;
+	margin: 5px;
 }
 .video {
 	height: 180px;
