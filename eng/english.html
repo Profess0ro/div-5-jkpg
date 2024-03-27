@@ -1,84 +1,108 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="En sida om lokala fotbollen i Smålands Division 5 Norra">
-	<meta name="keywords" content="Fotboll, Division 5, Annebergs, Bäckseda, Bälaryds, Ekenässjöns, 
-									Eksjö, Holsby, Höreda, Lekeryd-Svarttorps, Solberga, Sommens, Torpa, Örserums">
-	<meta name="author" content="Freddy Larsson">
-
-	<title>Division 5 Norra | Smålands fotbollsförbund</title>
-
-	<link rel="stylesheet" href="../assets/css/index.css" type="text/css">
-
-	<link rel="icon" sizes="180x180" href="../assets/pics/favicon/android-chrome-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="../assets/pics/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="../assets/pics/favicon/favicon-16x16.png">
-
-</head>
-
-<body>
-	<!-- Header picture -->
-	<header>
-		<picture>
-			<img src="../assets/pics/header.png" alt="header" class="headerbild">
-		</picture>
-
-
-	</header>
-
-
-	<!-- Team logos/menu -->
-	<nav>
-		<div style="background-color: white;" class="logomeny">
-
-			<a href="teams/annebergs.html" target="info"><img alt="logo_annebergs" src="../assets/pics/logo/annebergs_50.png"
-					class="logos"></a>
-			<a href="teams/backseda.html" target="info"><img alt="logo_backseda" src="../assets/pics/logo/backseda_50.png"
-					class="logos"></a>
-			<a href="teams/balaryds.html" target="info"><img alt="logo_balaryds" src="../assets/pics/logo/balaryds_50.png"
-					class="logos"></a>
-			<a href="teams/ekenassjon.html" target="info"><img alt="logo_ekenassjon" src="../assets/pics/logo/ekenassjon_50.png"
-					class="logos"></a>
-			<a href="teams/eksjo.html" target="info"><img alt="logo_eksjo" src="../assets/pics/logo/eksjo_50.png"
-					class="logos"></a>
-			<a href="teams/holsby.html" target="info"><img alt="logo_holsby" src="../assets/pics/logo/holsby_50.png"
-					class="logos"></a>
-			<a href="teams/horeda.html" target="info"><img alt="logo_horeda" src="../assets/pics/logo/horeda_50.png"
-					class="logos"></a>
-			<a href="teams/lekeryd.html" target="info"><img alt="logo_lekeryd" src="../assets/pics/logo/lekeryd_50.png"
-					class="logos"></a>
-			<a href="teams/solberga.html" target="info"><img alt="logo_solberga" src="../assets/pics/logo/solberga_50.png"
-					class="logos"></a>
-			<a href="teams/sommen.html" target="info"><img alt="logo_sommen" src="../assets/pics/logo/sommen_50.png"
-					class="logos"></a>
-			<a href="teams/torpa.html" target="info"><img alt="logo_torpa" src="../assets/pics/logo/torpa_50.png"
-					class="logos"></a>
-			<a href="teams/orserums.html" target="info"><img alt="logo_orserum" src="../assets/pics/logo/orserum_50.png"
-					class="logos"></a>
-
-		</div>
-
-		<!-- navigation -->
-		<div class="meny">
-			<a href="start.html" class="nav" target="info">home</a>
-			<a href="contact.html" class="nav" target="info">contact</a>
-			<a href="https://www.smalandsfotbollen.se/rs/tabell-och-resultat/div-5-norra-herr/114133/" target="_blank"
-				class="nav">standings</a>
-		</div>
-
-
-	</nav>
-	<!-- Information contents is shown here-->
-	<iframe src="start.html" class="iframe" name="info" style="border:none;"></iframe>
-
-
-	<footer>
-		<p>Freddy Larsson &copy; 2024</p>
-	</footer>
-
-</body>
-
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="En sida om lokala fotbollen i Smålands Division 5 Norra">
+    <meta name="keywords"
+      content="Fotboll, Division 5, Annebergs, Bäckseda, Bälaryds, Ekenässjöns, 
+      Eksjö, Holsby, Höreda, Lekeryd-Svarttorps, Solberga, Sommens, Torpa, Örserums">
+    <meta name="author" content="Freddy Larsson">
+    <title>Division 5 Norra | Smålands fotbollsförbund</title>
+    <link rel="stylesheet" href="assets/css/index.css" type="text/css">
+    <link rel="icon" sizes="180x180"
+      href="assets/pics/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+      href="assets/pics/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+      href="assets/pics/favicon/favicon-16x16.png">
+  </head>
+  <body>
+    <!-- Header picture -->
+    <header class="center">
+      <picture>
+        <img src="assets/pics/header.png" alt="header" class="headerbild">
+      </picture>
+    </header>
+    <!-- Team logos/menu -->
+    <nav class="toggle-nav white-background center margin-bottom">
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn grey-text"><i class="fa-solid fa-bars"></i></label>
+      <label for="" class="navbar white-background"></label>
+      <ul class="white-background text-center">
+        <li><a class="nav grey-text" href="start.html" target="info">home</a></li>
+        <li><a class="nav grey-text" href="contact.html" target="info">contact</a></li>
+        <li><a class="nav grey-text"
+          href="https://www.smalandsfotbollen.se/rs/tabell-och-resultat/div-5-norra-herr/114133/"
+          target="_blank">standings</a></li>
+        <li><a href="">Annebergs GIF</a></li>
+        <li><a href="">Bäckseda IF</a></li>
+        <li><a href="">Bälaryds IK</a></li>
+        <li><a href="">Ekenässjöns IF</a></li>
+        <li><a href="">Holsby SK</a></li>
+        <li><a href="">Höreda GOIF</a></li>
+        <li><a href="">IF Eksjö Fotboll</a></li>
+        <li><a href="">Lekeryd-Svarttorps SK</a></li>
+        <li><a href="">Solberga GoIF</a></li>
+        <li><a href="">Sommens AIF</a></li>
+        <li><a href="">Torpa AIS</a></li>
+        <li><a href="">Örserums IK</a></li>
+      </ul>
+    </nav>
+    <nav>
+      <div class="logomeny white-background center margin-bottom">
+        <a href="teams/annebergs.html" target="info"><img alt="logo_annebergs"
+          src="assets/pics/logo/annebergs_50.png"
+          class="logos"></a>
+        <a href="teams/backseda.html" target="info"><img alt="logo_backseda"
+          src="assets/pics/logo/backseda_50.png"
+          class="logos"></a>
+        <a href="teams/balaryds.html" target="info"><img alt="logo_balaryds"
+          src="assets/pics/logo/balaryds_50.png"
+          class="logos"></a>
+        <a href="teams/ekenassjon.html" target="info"><img alt="logo_ekenassjon"
+          src="assets/pics/logo/ekenassjon_50.png"
+          class="logos"></a>
+        <a href="teams/eksjo.html" target="info"><img alt="logo_eksjo"
+          src="assets/pics/logo/eksjo_50.png" class="logos"></a>
+        <a href="teams/holsby.html" target="info"><img alt="logo_holsby"
+          src="assets/pics/logo/holsby_50.png"
+          class="logos"></a>
+        <a href="teams/horeda.html" target="info"><img alt="logo_horeda"
+          src="assets/pics/logo/horeda_50.png"
+          class="logos"></a>
+        <a href="teams/lekeryd.html" target="info"><img alt="logo_lekeryd"
+          src="assets/pics/logo/lekeryd_50.png"
+          class="logos"></a>
+        <a href="teams/solberga.html" target="info"><img alt="logo_solberga"
+          src="assets/pics/logo/solberga_50.png"
+          class="logos"></a>
+        <a href="teams/sommen.html" target="info"><img alt="logo_sommen"
+          src="assets/pics/logo/sommen_50.png"
+          class="logos"></a>
+        <a href="teams/torpa.html" target="info"><img alt="logo_torpa"
+          src="assets/pics/logo/torpa_50.png" class="logos"></a>
+        <a href="teams/orserums.html" target="info"><img alt="logo_orserum"
+          src="assets/pics/logo/orserum_50.png"
+          class="logos"></a>
+      </div>
+      <!-- menu-->
+      <div class="meny white-background center margin-bottom text-center">
+        <a class="nav grey-text" href="start.html" target="info">home</a>
+        <a class="nav grey-text" href="contact.html" target="info">contact</a>
+        <a class="nav grey-text"
+          href="https://www.smalandsfotbollen.se/rs/tabell-och-resultat/div-5-norra-herr/114133/"
+          target="_blank">standings</a>
+      </div>
+    </nav>
+    <!-- Information content -->
+    <iframe src="start.html" class="iframe white-background center" name="info"></iframe>
+    <footer class="white-background center grey-text text-center">
+      <p><a href="https://www.facebook.com/pr0fessoro" target="_blank"><i
+        class="fa-brands fa-facebook"></i></a> Freddy Larsson &copy; 2024</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/214e058f0e.js"
+      crossorigin="anonymous"></script>
+  </body>
 </html>
