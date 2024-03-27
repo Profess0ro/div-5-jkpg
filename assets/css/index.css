@@ -8,6 +8,7 @@
 /* Background picture and font*/
 body {
 	background-image: url("../pics/field.jpg");
+	background-size: 100%;
 	font-family: verdana;
 }
 /* responsiveness to header image */

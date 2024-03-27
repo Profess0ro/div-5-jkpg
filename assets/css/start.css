@@ -7,11 +7,22 @@ body {
 }
 .green-text {color: #81BA5F;}
 
-.flex {display: flex;}
-
+.flex {
+	display: flex;
+}
+.block {
+	display: block;
+}
 ul {
 	font-style: italic;
 	text-align: left;
+}
+.border {
+	border: 2px solid #81BA5F;
+	border-radius: 2%;
+}
+.margin {
+	margin: 5px;
 }
 
 
@@ -26,14 +37,11 @@ a.link {
 
 /* Front page divs*/
 .start {
-	display: flex;
 	flex-wrap: wrap;
 	}
 
 
-.start div {
-border: 2px solid #81BA5F;
-border-radius: 2%;
+.columns {
 flex-grow: 1;
 flex-direction: column;
 align-items: center;
@@ -43,26 +51,15 @@ flex-basis: 200px;
 }
 
 
-.start iframe {
-	width: 80%;
-	height:200px; 
+.video {
+	height: 180px;
+	width: 170px; 
 	border:none;
-	overflow:hidden; 
-	}
+	 }
 
 
-form {
-	display: block;
-}
-
-	/* Contact div */
-.contact {
-	display: block
-}
 
 .contact div {
-border: 2px solid #81BA5F;
-border-radius: 2%;
 padding: 15px;
 flex-grow: 1;
 justify-content: space-around;
