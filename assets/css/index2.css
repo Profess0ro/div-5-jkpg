@@ -15,31 +15,30 @@ body {
 
 /* responsiveness to header image */
 img.headerbild {
-	width: 88.9%;
+	width: 100%;
 	height: auto;
 }
 .white-background {
 	background-color: #FFFFFF;
 }
 
-.margin-left {
+.center {
 	margin-left: 10%;
+	margin-right: 10%;
+}
+.margin-bottom {
+	margin-bottom: 3px;
 }
 
-header {
-	margin-left: 10%;	
-}
 
 
 footer {
 	margin-top: 10px;
-	background-color: #FFFFFF;
-	margin-left: 10%;
-	margin-right: 10%;
+	
 	}
 
 footer p, a{
-	font-size: x-small;
+	font-size: 10px;
 	color:	#a4a4a4;
 	text-align: center;
 }
@@ -47,25 +46,16 @@ footer p, a{
 /* content area */
 .iframe 
 {
-background-color: #FFFFFF;
 align-content: center;
-margin-left: 10%;
-margin-right: 10%;
-height:80vh;
+height:70vh;
 width:80%;
 }
 
 /* div with all clubsigns */
 .toggle-nav{
-	margin-left: 10%;
-	margin-right: 10%;
 	margin-bottom: 3px;
-	background-color: #FFFFFF;
 }
 
-.navbar {
-	background-color: #FFFFFF;
-}
 
 nav ul{
 	float: right;
@@ -91,16 +81,7 @@ nav ul li a{
 
 .logomeny
 {
-	display: none;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-content: space-between;
-	justify-content: center;	
-	margin-bottom: 3px;
-	margin-left: 10%;
- 	margin-right: 13%;
-	padding: 10px;
-	padding-top: 40px;	
+	display: none;	
 }
 
 /* Grayscale on logos */
@@ -159,7 +140,6 @@ input:focus {
 ul {
 	width: 80%;
 	position: fixed;
-	background: #FFFFFF;
 	text-align: center;
 	display: none;
 	transition: all .5s;
@@ -181,10 +161,7 @@ nav ul li a {
 @media screen and (min-width: 768px) {
 
 	.meny {
-		background-color: #FFFFFF;
 		margin-bottom: 3px;
-		margin-left: 10%;
-		 margin-right: 10%;
 		height: 20px;
 		margin-top: 3px;
 		text-align: center;
@@ -207,8 +184,6 @@ height:50vh;
 	align-content: space-between;
 	justify-content: center;	
 	margin-bottom: 3px;
-	margin-left: 10%;
- 	margin-right: 10%;
 	padding: 10px;	
 }
 img.logos {
