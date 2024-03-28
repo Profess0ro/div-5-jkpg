@@ -10,8 +10,33 @@
 
 ## User Stories
 
-- Landing page: As a visiting user you first land at a swedish site and have a choice at the top left corner to change to the english version.
+- <b>Landing page:</b> As a visiting user I´m first landing at a swedish version and have a choice at the top left corner to change to the english version. While I´m going further on this page there is general info about what I can find on the website, a TV-commercial that I can watch. Last there is a form where I´m guessing the team that will win this season.
+<br><img src="assets/pics/readme/lang.png">
 
+- <b>Contact page:</b> As a visiting user I´ll find a link to mail the the author if there´s something missing on the website.
+
+- <b>Standings:</b> As a visiting user and clicking on this link another tab opens up to soccer associations official site where I can see the actual standings in the league.
+
+- <b>Team pages:</b> As a visiting user and clicking on a teams logo (teamname on smaller screens navbar) the chosen teams info will be shown for me in the main content area and here I can read the last years position, commentaries from the managers about this season and if I click on the rescent games score there´s a new tab opening with the official summary of that specific game.
+<hr>
+
+# Features 
+
+<b>Navigation for screens wider than 768px:</b><br><br>
+<img src="assets/pics/readme/nav.png">
+
+1. Here I´ve put a navigation to all the teams info in a seperated navigation bar. All logos are in a greyscale and if you hover on a logo that will be in color (except the logos that are only black and white). If you click on a teams logo their info will be shown in the iframe below the navigation.
+2. I´ve seperated the teams navigation with the links to pages that doesn´t concern info about the teams in a smaller navigation below the logos. Here the text is grey and if you hover over the text it will be green and bolder.
+
+
+#### Navigation on smaller screens: 
+- When you click on the bars icon this menu will be shown. Here I´ve seperated the teampages and other pages with seperated fontstyles. Green color and lowercase for the teams pages and grey color and uppercase for the pages that doesn´t concern the teams.
+<img src="assets/pics/readme/navmobile.png">
+
+#### Teampages: 
+- on each teams page you can read every manager or teamleaders thoughts about the season of year 2024. 
+- <b>Rescent scores:</b> See each teams rescent scores and follow a link to a game summary of each specific game.
+- <b>Standings:</b> There is a link to the association so the user can see the standings for this season.
 
 
 ### Home
@@ -34,11 +59,7 @@ On every teams page can you read the answers that I´ve got from the managers ab
 
 Here is information how to contact me if there´s more content that the visitors want to see.
 
-# Features 
 
-- <b>Team info:</b> on each teams page you can read every manager or teamleaders thoughts about the season of year 2024. 
-- <b>Rescent scores:</b> See each teams rescent scores and follow a link to a game summary of each specific game.
-- <b>Standings:</b> There is a link to the association so the user can see the standings for this season.
 
 # User value
 
@@ -54,17 +75,7 @@ This is a picture from a local game that a local paper put in an article.
 
 ### Navigation
 
-#### Navigation for screens wider than 768px:
-<img src="assets/pics/readme/nav.png">
 
-1. Here I´ve put a navigation to all the teams info in a seperated navigation bar. 
-2. Here is a smaller navigation bar to pages outside the teams information.
-
-
-#### Navigation on smaller screens
-When you click on the bars icon this menu will be shown. Grey text for the pages not directing to the teampages and green text for the teams pages.
-
-<img src="assets/pics/readme/navmobile.png">
 
 
 
