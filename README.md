@@ -22,6 +22,8 @@
 
 # Features 
 
+### Navigation
+
 <b>Navigation for screens wider than 768px:</b><br><br>
 <img src="assets/pics/readme/nav.png">
 
@@ -29,26 +31,25 @@
 2. I´ve seperated the teams navigation with the links to pages that doesn´t concern info about the teams in a smaller navigation below the logos. Here the text is grey and if you hover over the text it will be green and bolder.
 
 
-#### Navigation on smaller screens: 
-- When you click on the bars icon this menu will be shown. Here I´ve seperated the teampages and other pages with seperated fontstyles. Green color and lowercase for the teams pages and grey color and uppercase for the pages that doesn´t concern the teams.
+<b>Navigation on smaller screens: </b>
+- When you click on the bars icon this menu will be shown. Here I´ve seperated the teampages and other pages with seperated fontstyles. Green color and lowercase for the teams pages and grey color and uppercase for the pages that doesn´t concern the teams.<br><br>
 <img src="assets/pics/readme/navmobile.png">
+
+### Home
+
+In the first I´ve written down a small welcoming text for the visitor and who it targets. 
+
+<img src="assets/pics/readme/home.png">
 
 #### Teampages: 
 
-- on each teams page you can read every manager or teamleaders thoughts about the season of year 2024. 
-- Rescent scores: See each teams rescent scores and follow a link to a game summary of each specific game.
+- On each teams page can you read every manager thoughts about this season (2024).
+- You can also see each teams rescent scores and follow a link to a game summary of each game.
 
 <img src="assets/pics/readme/teampage.png">
 
 
-### Home
 
-<img src="assets/pics/readme/home.png">
-
-On the homepage can you: 
-- read general info about this website
-- watch an old TV-commercial a swedish TV-channel did from a local game for Champions League.
-- Answer a form where you guess who will win this season, the form requires both fields filled.
 
 
 ### Team pages
