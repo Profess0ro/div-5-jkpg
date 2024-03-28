@@ -73,10 +73,10 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 
 <hr>
 
-# Problems I encountered
+# Bugs I encountered
 
 - my biggest issue with this structure that I´ve chosen was to not have any scrollbar at the page at any type of screen. That was solved by having a height for the iframe with vh , so that the only scrollbar visual is in the iframe where all info is shown.
-- a smaller problem was the navigation with all the the logos so they won´t change any size on any screensize, they just create more rows on the screen. First I thought that would be a problem on mobile phones, but when I looked at the page in my phone that didn´t disturb anything and was easier to navigate when they didn´t change size. If the logos had been smaller on smaller screens it would have been harder to navigate to all team pages.
+- 
 
 <hr>
 
@@ -112,7 +112,20 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 <b>CSS</b> - Went through without fails ( https://jigsaw.w3.org/css-validator )
 <img src="assets/pics/readme/jigsaw.png">
 
-<b>Responsiveness</b> - Checked with Chromes built in (right-click -> inspect) and also manually on laptop/smartphone/big screen.
+<b>Responsiveness</b> - Checked with Chromes built in DevTools (when on the page: right-click -> inspect)
+Here I´ve tested on:
+- Galaxy Fold 
+- Iphone 14 Pro Max
+- Ipad Mini
+- Surface Pro 7
+<br>and all looked easy to navigate at.<br>
+
+<b>Manually tested on:</b>
+- Samsung Galaxy S23 Ultra (my own phone)
+- Laptop with dimensions 1024x768
+- Screen with dimensions 1920x1080
+<br>also here it was easy to navigate.
+
 
 <b>public testing</b> - Sent out the live page to group of people that this webpage mainly aims to when I got the answers from the managers. The response was very good from visitors, that found it easy to navigate through the webpage.
 <hr>
