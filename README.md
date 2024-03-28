@@ -31,11 +31,18 @@ This is a picture from a local game that a local paper put in an article.
 
 ### Navigation
 
+#### Navigation for screens wider than 768px:
 <img src="assets/pics/readme/nav.png">
 
 1. Here I´ve put a navigation to all the teams info in a seperated navigation bar. 
 2. Here is a smaller navigation bar to pages outside the teams information.
-3. On the homepage you can decide if you want to visit the page in swedish or english. 
+
+
+#### Navigation on smaller screens
+When you click on the bars icon this menu will be shown. Grey text for the pages not directing to the teampages and green text for the teams pages.
+
+<img src="assets/pics/readme/navmobile.png">
+
 
 
 
@@ -129,6 +136,7 @@ This website is built in Visual Studio Code and published to GitHub using comman
 - https://www.w3schools.com/ for a searching after css attributes.
 - Mail and text messages with the managers is how I´ve got the information for the teams pages.
 - https://favicon.io/emoji-favicons/soccer-ball/ - Favicon
+- https://ui.dev/amiresponsive - Responsive picture
 <hr>
 
 # Mentions
