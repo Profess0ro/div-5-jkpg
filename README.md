@@ -34,9 +34,11 @@
 <img src="assets/pics/readme/navmobile.png">
 
 #### Teampages: 
+
 - on each teams page you can read every manager or teamleaders thoughts about the season of year 2024. 
-- <b>Rescent scores:</b> See each teams rescent scores and follow a link to a game summary of each specific game.
-- <b>Standings:</b> There is a link to the association so the user can see the standings for this season.
+- Rescent scores: See each teams rescent scores and follow a link to a game summary of each specific game.
+
+<img src="assets/pics/readme/teampage.png">
 
 
 ### Home
@@ -51,7 +53,7 @@ On the homepage can you:
 
 ### Team pages
 
-<img src="assets/pics/readme/teampage.png">
+
 
 On every teams page can you read the answers that I´ve got from the managers about this season. There are also links to rescent game summaries.
 
