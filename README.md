@@ -1,15 +1,18 @@
 # Division 5 Norra
 
-
-<img src="assets/pics/readme/responsive.png" alt="responsive" width="800">
-
 ### This is a website I´ve made focusing on the pre-season for a local soccer league in the area of Jönköping.
 
-### I have created this website mainly for people that loves soccer around this area. So that supporters/players/managers can have a insight what the team managers thoughts are about this season. 
+#### I have created this website mainly for people that loves soccer around this area. So that supporters/players/managers can have a insight what the team managers thoughts are about this season. 
 
-### When reading the managers answer of my questions the supporters have more information about what the teams think of this season.
-
+#### When reading the managers answer of my questions the supporters have more information about what the teams think of this season.
+<img src="assets/pics/readme/responsive.png" alt="responsive" width="800">
 <hr>
+
+## User Stories
+
+- Landing page: As a visiting user you first land at a swedish site and have a choice at the top left corner to change to the english version.
+
+
 
 ### Home
 
@@ -80,7 +83,7 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 
 # Bugs I encountered
 
-- my biggest issue with this structure that I´ve chosen was to not have any scrollbar at the page at any type of screen. That was solved by having a height for the iframe with vh , so that the only scrollbar visual is in the iframe where all info is shown.
+- Since there was so much info to show on the teampages a scrollbar showed up on the side. But I wanted a smoother version of the website. My solution to this was to put in an iframe between the navbars and the footer. this made that all stayed in place and only the iframe was scrollable.
 - 
 
 <hr>
