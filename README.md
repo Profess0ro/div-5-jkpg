@@ -11,6 +11,26 @@
 
 <hr>
 
+### Home
+
+<img src="assets/pics/readme/home.png">
+
+On the homepage can you: 
+- read general info about this website
+- watch an old TV-commercial a swedish TV-channel did from a local game for Champions League.
+- Answer a form where you guess who will win this season, the form requires both fields filled.
+
+
+### Team pages
+
+<img src="assets/pics/readme/teampage.png">
+
+On every teams page can you read the answers that I´ve got from the managers about this season. There are also links to rescent game summaries.
+
+### Contact
+
+Here is information how to contact me if there´s more content that the visitors want to see.
+
 # Features 
 
 - <b>Team info:</b> on each teams page you can read every manager or teamleaders thoughts about the season of year 2024. 
@@ -46,22 +66,7 @@ When you click on the bars icon this menu will be shown. Grey text for the pages
 
 
 
-### Home
 
-<img src="assets/pics/readme/home.png">
-
-Here is an introduction to what you can expect to find on this website to all visitors. Also an old commercial the swedish channel "TV6" did for Champions League at a local game.
-
-### Team pages
-
-<img src="assets/pics/readme/teampage.png">
-
-On every teams page the color on the text changes to the color that mainly is in their logo. 
-Here you can read the answers that the managers has been provided and links to rescent game summaries.
-
-### Contact
-
-Here is information how to contact me if there´s more content that the visitors want to see.
 
 <hr>
 
@@ -132,7 +137,7 @@ Here I´ve tested on:
 
 # Deployment
 
-This website is built in Visual Studio Code and published to GitHub using commands as: git add ____ / git commit -m "message" / git push
+
 
 <hr>
 
