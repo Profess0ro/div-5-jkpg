@@ -74,7 +74,7 @@ If you click on this link you will be directed to the associations official site
 - Colors I´ve used beyond black (#000000) and white (#FFFFFF) are:<br>
     Green (#81BA5F) for links and broders and gray (#AFAFAF) for unhovered links and footer text. 
 <br><img src="assets/pics/readme/green.png"><img src="assets/pics/readme/grey.png"><img src="assets/pics/readme/teamcolors.png"><br>
-    On every teams page I have chosed to pick a color that are connected to every team, either by the color in their logo or shirtcolors. From left to right those colors are: 
+    On every teams page I have chosed to pick a color that are connected to every team, either by the color in their logo or shirtcolors. From left to right those colors are:<br> 
     #003499 | #0067B2 | #E31D1A | #36A544 | #D01014 | #9E293C | #154F99 | #C3170B | #000000
 
 
