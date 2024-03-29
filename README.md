@@ -65,6 +65,7 @@ If you click on this link you will be directed to the associations official site
 
 - Something that I would like to add is a page similar to a guestbook where supporters can talk about this seasons games and other related things that happens during this season.
 - A gallery where supporters can post pictures from games during the season.
+- Commentaries from the managers after the season.
 
 # Typography and color scheme
 
@@ -110,11 +111,6 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 
 <hr>
 
-# What I would like to implement:
-
-- <b>A guestbook</b> - where visitors/supporters could comment games and other happenings in the league.
-- <b>Post-season comments</b> - here could supporters read comments from the manager about the season when it has ended.
-
 <hr>
 
 # Testing
@@ -125,7 +121,7 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 <b>CSS</b> - Went through without fails ( https://jigsaw.w3.org/css-validator )
 <img src="assets/pics/readme/jigsaw.png">
 
-<b>Responsiveness</b> - Checked with Chromes built in DevTools (when on the page: right-click -> inspect)
+<b>Responsiveness</b> - Checked with Google Chromes built in DevTools (when on the page: right-click -> inspect)
 Here I´ve tested on:
 - Galaxy Fold 
 - Iphone 14 Pro Max
