@@ -37,13 +37,17 @@
 
 ### Home
 
-In the first I´ve written down a small welcoming text for the visitor and who it targets. 
+- In the first square I´ve written down a small welcoming text for the visitor and who it targets. 
+- In the second square there is information on what you can find on this website.
+- In the third square can you watch an embedded TV-commersial from 2019 that TV6 did for Champions League from a local game.
+- In the fourth square I did a form where you can guess which team will win this season. Both textfields are required to be filled. These squares have a flex code so they stack on eachother if you have smaller screens.
 
 <img src="assets/pics/readme/home.png">
 
 #### Teampages: 
 
-- On each teams page can you read every manager thoughts about this season (2024).
+- When you enter a teams page you will first find the teams position from last year.
+- Underneith the last position can you find the answers from the questions that I´ve mailed out to all managers (not all have answered me).
 - You can also see each teams rescent scores and follow a link to a game summary of each game.
 
 <img src="assets/pics/readme/teampage.png">
