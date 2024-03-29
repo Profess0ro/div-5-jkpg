@@ -52,48 +52,34 @@
 
 <img src="assets/pics/readme/teampage.png">
 
-
-
-
-
-### Team pages
-
-
-
-On every teams page can you read the answers that I´ve got from the managers about this season. There are also links to rescent game summaries.
-
 ### Contact
 
-Here is information how to contact me if there´s more content that the visitors want to see.
+On this page there´s a link to mail me if a visitor finds something missing on the page.
 
+### Standings
 
-
-# User value
-
-The users will be provided first hand information from the managers/teamleaders thoughts about the season of year 2024.
-
-# Contents
-
-### Header
-
-<img src="assets/pics/readme/header.png">
-
-This is a picture from a local game that a local paper put in an article.
-
-### Navigation
-
-
-
-
-
-
-
-
+If you click on this link you will be directed to the associations official site with a live version of the leagues standings.
 <hr>
+
+# Future features
+
+- Something that I would like to add is a page similar to a guestbook where supporters can talk about this seasons games and other related things that happens during this season.
+- A gallery where supporters can post pictures from games during the season.
+
+# Typography and color scheme
+
+- On this site Verdana is used as font. This font I find easy to read so I chosed to not insert a font from e.g googlefonts
+
+- Colors I´ve used beyond black (#000000) and white (#FFFFFF) are:<br>
+    Green (#81BA5F) for links and broders and gray (#AFAFAF) for unhovered links and footer text. 
+<br><img src="assets/pics/readme/green.png"><img src="assets/pics/readme/grey.png"><img src="assets/pics/readme/teamcolors.png"><br>
+    On every teams page I have chosed to pick a color that are connected to every team, either by the color in their logo or shirtcolors. From left to right those colors are: 
+    #003499 | #0067B2 | #E31D1A | #36A544 | #D01014 | #9E293C | #154F99 | #C3170B | #000000
+
 
 # Structure
 
-<img src="assets/pics/readme/structure.png">
+<img src="assets/pics/readme/structure.png"><br>
 
 As you can see in this picture all links to team pages at nav1 is targeting the iframe, thats a method I´ve learned years ago and doesn´t need to load a whole new url every time you click on a link. The exceptions is "standings" at nav2 (opens in a new window/tab) and changing language at the home page (opens on top).
 
@@ -102,7 +88,9 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 # Bugs I encountered
 
 - Since there was so much info to show on the teampages a scrollbar showed up on the side. But I wanted a smoother version of the website. My solution to this was to put in an iframe between the navbars and the footer. this made that all stayed in place and only the iframe was scrollable.
-- 
+
+- In the beginning I´ve tried to have the navigation with all the teams logos visible even on mobile phones. But those logos took to much space from the user to read the content, so the solution to that was to insert a togglebar for mobilephones so the content would be more visible for the visitor.<br>
+<img src="assets/pics/readme/before.png"><img src="assets/pics/readme/after.png">
 
 <hr>
 
@@ -110,7 +98,6 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 
  - background picture is a soccerfield that gets more visual the bigger your screen are. The image is downloaded from https://www.vecteezy.com/free-vector/soccer-pitch
 
- - Font is Verdana which is a clean easyreadable font that doesn´t require downloading of a new font for the user.
 
  - Team logos are aquired from https://www.smalandsfotbollen.se/
 
