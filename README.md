@@ -88,7 +88,7 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 
 # Bugs I encountered
 
-- Since there was so much info to show on the teampages a scrollbar showed up on the side. But I wanted a smoother version of the website. My solution to this was to put in an iframe between the navbars and the footer. this made that all stayed in place and only the iframe was scrollable.
+- Since there was so much info to show on the teampages a scrollbar showed up on the side. But I wanted a smoother version of the website. My solution to this was to put in an iframe between the navbars and the footer, this made that all stayed in place and only the iframe was scrollable.
 
 - In the beginning I´ve tried to have the navigation with all the teams logos visible even on mobile phones. But those logos took to much space from the user to read the content, so the solution to that was to insert a togglebar for mobilephones so the content would be more visible for the visitor.<br>
 <img src="assets/pics/readme/before.png"><img src="assets/pics/readme/after.png">
@@ -115,7 +115,7 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 
 # Testing
 
-<b>HTML</b> - Went through without fails ( https://validator.w3.org )
+<b>HTML</b> - Tested all pages with https://validator.w3.org, click<a href=""> here </a>for results:
 <img src="assets/pics/readme/w3c.png">
 
 <b>CSS</b> - Went through without fails ( https://jigsaw.w3.org/css-validator )
