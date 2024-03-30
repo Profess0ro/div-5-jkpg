@@ -69,7 +69,7 @@ If you click on this link you will be directed to the associations official site
 
 # Typography and color scheme
 
-- On this site Verdana is used as font. This font I find easy to read so I chosed to not insert a font from e.g googlefonts
+- On this site Verdana are used as font. This font I find easy to read so I chosed to not insert a font from e.g googlefonts
 
 - Colors I´ve used beyond black (#000000) and white (#FFFFFF) are:<br>
     Green (#81BA5F) for links and broders and gray (#AFAFAF) for unhovered links and footer text. 
@@ -93,23 +93,6 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 - In the beginning I´ve tried to have the navigation with all the teams logos visible even on mobile phones. But those logos took to much space from the user to read the content, so the solution to that was to insert a togglebar for mobilephones so the content would be more visible for the visitor.<br>
 <img src="assets/pics/readme/before.png"><img src="assets/pics/readme/after.png">
 
-<hr>
-
- # Design
-
- - background picture is a soccerfield that gets more visual the bigger your screen are. The image is downloaded from https://www.vecteezy.com/free-vector/soccer-pitch
-
-
- - Team logos are aquired from https://www.smalandsfotbollen.se/
-
- - Color of the text on the teampage are aquired from the color of the logo, except IF Eksjö Fotboll´s page, that text color are from their jerseys. Used Paint´s tool "Color picker"
-
- - The header picture are from https://tranastidning.se/
-
- - Favicon downloaded from https://favicon.io/emoji-favicons/soccer-ball/
-
-
-<hr>
 
 <hr>
 
@@ -120,22 +103,22 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 <b>CSS</b> - Went through without fails ( https://jigsaw.w3.org/css-validator )
 <img src="assets/pics/readme/jigsaw.png">
 
-<b>Responsiveness</b> - Checked with Google Chromes built in DevTools (when on the page: right-click -> inspect)
-Here I´ve tested on:
+<b>Responsiveness</b> - Checked with Google Chromes built in DevTools (when on the page: right-click -> inspect)<br>
+I have done DevTools test on the following models:
 - Galaxy Fold 
 - Iphone 14 Pro Max
 - Ipad Mini
 - Surface Pro 7
-<br>and all looked easy to navigate at.<br>
+<br>
 
 <b>Manually tested on:</b>
 - Samsung Galaxy S23 Ultra (my own phone)
 - Laptop with dimensions 1024x768
 - Screen with dimensions 1920x1080
-<br>also here it was easy to navigate.
+<br>on all of these 7 tests i din´t found anything hard to find or read.
 
 
-<b>public testing</b> - Sent out the live page to group of people that this webpage mainly aims to when I got the answers from the managers. The response was very good from visitors, that found it easy to navigate through the webpage.
+<b>Public testing</b> - Sent out the live page to group of people that this webpage mainly aims to. The response was very good from visitors, that found it easy to navigate through the webpage.
 <hr>
 
 # Deployment
