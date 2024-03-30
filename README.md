@@ -115,8 +115,7 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 
 # Testing
 
-<b>HTML</b> - Tested all pages with https://validator.w3.org, click<a href="html-tests/index.html"> here </a>for results:
-<img src="assets/pics/readme/w3c.png">
+<b>HTML</b> - Tested all 32 html-files seperatly with https://validator.w3.org, click<a href="https://profess0ro.github.io/div-5-jkpg/html-tests/index.html"> here </a>for results:
 
 <b>CSS</b> - Went through without fails ( https://jigsaw.w3.org/css-validator )
 <img src="assets/pics/readme/jigsaw.png">
