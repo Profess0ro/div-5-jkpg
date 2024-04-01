@@ -8,7 +8,8 @@
 /* Background picture and font*/
 body {
 	background-image: url("../pics/field.jpg");
-	background-size: 100%;
+	background-size: 100vw 100vh;
+    background-repeat: no-repeat;
 	font-family: verdana;
 }
 /* responsiveness to header image */
@@ -74,7 +75,6 @@ a.nav:hover {
 	color:#81BA5F;
 	font-weight: bold;
 }
-@media screen and (max-width: 767px) {
 	/* Values for navbar under 767px width*/
 	.checkbtn {
 		display: block;
@@ -94,9 +94,11 @@ a.nav:hover {
 	#check:checked ~ ul {
 		display: block;
    }
-}
 @media screen and (min-width: 768px) {
 	/* These settings changing menu on screens wider than 768px*/
+	body {
+		background-size: 100%;
+	}
 	.meny {
 		display: block;
 		height: 20px;
