@@ -75,25 +75,25 @@ a.nav:hover {
 	color:#81BA5F;
 	font-weight: bold;
 }
-	/* Values for navbar under 767px width*/
-	.checkbtn {
-		display: block;
-   }
-	ul {
-		width: 80%;
-		position: fixed;
-		text-align: center;
-		display: none;
-   }
-	nav ul li {
-		display: block;
-   }
-	.logomeny, nav ul li a {
-		font-size: 18px;
-   }
-	#check:checked ~ ul {
-		display: block;
-   }
+
+.checkbtn {
+	display: block;
+}
+ul {
+	width: 80%;
+	position: fixed;
+	text-align: center;
+	display: none;
+}
+nav ul li {
+	display: block;
+}
+.logomeny, nav ul li a {
+	font-size: 18px;
+}
+#check:checked ~ ul {
+	display: block;
+}
 @media screen and (min-width: 768px) {
 	/* These settings changing menu on screens wider than 768px*/
 	body {
