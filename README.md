@@ -93,14 +93,19 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 - In the beginning I´ve tried to have the navigation with all the teams logos visible even on mobile phones. But those logos took to much space from the user to read the content, so the solution to that was to insert a togglebar for mobilephones so the content would be more visible for the visitor.<br>
 <img src="assets/pics/readme/before.png"><img src="assets/pics/readme/after.png">
 
+# Technology
+
+- <b>HTML and CSS</b>
+- <b>Visual Studio Code</b> - This IDE was easy to use.
+- <b>Github</b> - For deployment.
 
 <hr>
 
 # Testing
 
-<b>HTML</b> - Tested all 32 html-files seperatly with https://validator.w3.org, click<a href="https://profess0ro.github.io/div-5-jkpg/html-tests/index.html" target="_blank"> here </a>for results:
+<b>HTML</b> - Tested all 32 html-files seperatly with https://validator.w3.org, click<a href="https://profess0ro.github.io/div-5-jkpg/html-tests/index.html"> here </a>for results:
 
-<b>CSS</b> - Went through without fails ( https://jigsaw.w3.org/css-validator )
+<b>CSS</b> - All 3 CSS-files went through W3C´s css balidation test without fails ( https://jigsaw.w3.org/css-validator )
 <img src="assets/pics/readme/jigsaw.png">
 
 <b>Responsiveness</b> - Checked with Google Chromes built in DevTools (when on the page: right-click -> inspect)<br>
@@ -111,20 +116,31 @@ I have done DevTools test on the following models:
 - Surface Pro 7
 <br>
 
-<b>Manually tested on:</b>
+<b>Manually tested responsiveness on:</b>
 - Samsung Galaxy S23 Ultra (my own phone)
 - Laptop with dimensions 1024x768
 - Screen with dimensions 1920x1080
 <br>on all of these 7 tests i din´t found anything hard to find or read.
 
+(All of these tests above have been done with Google Chrome)
 
 <b>Public testing</b> - Sent out the live page to group of people that this webpage mainly aims to. The response was very good from visitors, that found it easy to navigate through the webpage.
 <hr>
 
 # Deployment
 
+- <b>Visual Studio Code:</b>
+1. Installed extension "GitHub Pull Requests".
+2. Connected my Github account to Visual Studio.
+3. Used command "Git:Clone" and pasted my repository address, now I´m connected to my repository.
+4. "Git add ." | "Git commit -m" | "Git push" | Was commands used in Visual Studio to upload my files to my repository
 
-
+- <b>Github:</b> 
+1. Logged in to Github account.
+2. Got to the repository for the site. 
+3. Clicked on "settings" in the menu at the top. 
+4. In settings, located "Pages" on the left-side navigation.
+5. On the dropdown under "Source" selected "main" as branch and pressed save.
 <hr>
 
 # Source reference
