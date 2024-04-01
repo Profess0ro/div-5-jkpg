@@ -141,6 +141,8 @@ I have done DevTools test on the following models:
 3. Clicked on "settings" in the menu at the top. 
 4. In settings, located "Pages" on the left-side navigation.
 5. On the dropdown under "Source" selected "main" as branch and pressed save.
+
+Live link: https://profess0ro.github.io/div-5-jkpg/
 <hr>
 
 # Source reference
