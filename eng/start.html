@@ -1,63 +1,64 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <link rel="stylesheet" href="../assets/css/start.css" type="text/css">
-    <title>Landing page</title>
-  </head>
-  <body>
-    <div>
-      <a href="../index.html" target="_top"><img alt="swedish flag" src="../assets/pics/swe.png"></a>
-      <a href="english.html" target="_top"><img alt="english flag" src="../assets/pics/eng.png"></a>
-    </div>
-    <div class="start text-center flex">
-      <div class="flex columns">
-        <h3>Hi and welcome to this site about the season 2024 of Division 5 Norra!</h3>
-        <p>This page is created for you that support your local teams and also for the players and managers.
-          Me who have created this site have played in this local region so I know a little about most of the teams.
-          Now have I retired my shoes but still follows the local soccer leagues.
-        </p>
+   <head>
+      <link rel="stylesheet" href="../assets/css/start.css" type="text/css">
+      <title>Landing page</title>
+   </head>
+   <body>
+      <div>
+         <a href="../index.html" target="_top"><img alt="swedish flag" src="../assets/pics/swe.png"></a>
+         <a href="english.html" target="_top"><img alt="english flag" src="../assets/pics/eng.png"></a>
       </div>
-      <div class="flex columns">
-        <p>Here you will:</p>
-        <ul>
-          <li>Read comments from every teams manager about this season</li>
-          <li>See statistics</li>
-          <li>See results</li>
-        </ul>
+      <div class="start text-center flex">
+         <div class="flex columns">
+            <h3>Hi and welcome to this site about the season 2024 of Division 5 Norra!</h3>
+            <p>This page is created for you that support your local teams and also for the players and managers.
+               Me who have created this site have played in this local region so I know a little about most of the teams.
+               Now have I retired my shoes but still follows the local soccer leagues.
+            </p>
+         </div>
+         <div class="flex columns">
+            <p>Here you will:</p>
+            <ul>
+               <li>Read comments from every teams manager about this season</li>
+               <li>See statistics</li>
+               <li>See results</li>
+            </ul>
+         </div>
+         <div class="flex columns">
+            <p>
+               To get you all pumped up for this season you can watch this commercial TV6 did back in 2019 about Champions
+               League from a
+               local game between Bälaryd and Lommaryd.<br><br>
+               <a href="https://www.facebook.com/tv6sverige/videos/spelar-ingen-roll-om-det-%C3%A4r-div-6-eller-champions-league-fr%C3%A5n-sm%C3%A5land-till-madri/1242008475962124/?locale=sv_SE" target="_blank">(link to a Facebook page)</a>
+            </p>
+         </div>
+         <div class="input columns">
+            <form class="text-center block" method="get" action="formanswer.html" target="_self">
+               <p><strong>Who do you think will win Division 5 Norra season 2024?</strong></p>
+               <select id="input-select">
+                  <option value="Annebergs GIF">Choose team</option>
+                  <option value="Annebergs GIF">Annebergs GIF</option>
+                  <option value="Bäckseda IF">Bäckseda IF</option>
+                  <option value="Bälaryds IK">Bälaryds IK</option>
+                  <option value="Ekenässjöns IF">Ekenässjöns IF</option>
+                  <option value="Holsby SK">Holsby SK</option>
+                  <option value="Höreda GOIF">Höreda GOIF</option>
+                  <option value="IF Eksjö Fotboll">IF Eksjö Fotboll</option>
+                  <option value="Lekeryd-Svarttorps SK">Lekeryd-Svarttorps SK</option>
+                  <option value="Solberga GoIF">Solberga GoIF</option>
+                  <option value="Sommens AIF">Sommens AIF</option>
+                  <option value="Torpa AIS">Torpa AIS</option>
+                  <option value="Örserums IK">Örserums IK</option>
+               </select>
+               <br><br>
+               <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+               <br>
+               <input id="ort-field" type="text" name="email" placeholder="City" required autocomplete="on">
+               <br>
+               <input type="submit" value="Submit answer">
+            </form>
+         </div>
       </div>
-      <div class="flex columns">
-        <p>
-          To get you all pumped up for this season you can watch this commercial TV6 did back in 2019 about Champions
-          League from a
-          local game between Bälaryd and Lommaryd.<br><br><a href="https://www.facebook.com/tv6sverige/videos/spelar-ingen-roll-om-det-%C3%A4r-div-6-eller-champions-league-fr%C3%A5n-sm%C3%A5land-till-madri/1242008475962124/?locale=sv_SE" target="_blank">(link to a Facebook page)</a>
-        </p>
-      </div>
-      <div class="input columns">
-        <form class="text-center block" method="get" action="formanswer.html" target="_self">
-          <p><strong>Who do you think will win Division 5 Norra season 2024?</strong></p>
-          <select id="input-select">
-            <option value="Annebergs GIF">Choose team</option>
-            <option value="Annebergs GIF">Annebergs GIF</option>
-            <option value="Bäckseda IF">Bäckseda IF</option>
-            <option value="Bälaryds IK">Bälaryds IK</option>
-            <option value="Ekenässjöns IF">Ekenässjöns IF</option>
-            <option value="Holsby SK">Holsby SK</option>
-            <option value="Höreda GOIF">Höreda GOIF</option>
-            <option value="IF Eksjö Fotboll">IF Eksjö Fotboll</option>
-            <option value="Lekeryd-Svarttorps SK">Lekeryd-Svarttorps SK</option>
-            <option value="Solberga GoIF">Solberga GoIF</option>
-            <option value="Sommens AIF">Sommens AIF</option>
-            <option value="Torpa AIS">Torpa AIS</option>
-            <option value="Örserums IK">Örserums IK</option>
-          </select>
-          <br><br>
-          <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
-          <br>
-          <input id="ort-field" type="text" name="email" placeholder="City" required autocomplete="on">
-          <br>
-          <input type="submit" value="Submit answer">
-        </form>
-      </div>
-    </div>
-  </body>
+   </body>
 </html>
