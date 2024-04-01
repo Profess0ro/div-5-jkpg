@@ -94,6 +94,9 @@ nav ul li {
 #check:checked ~ ul {
 	display: block;
 }
+.guidance {
+	font-size: 10px;
+}
 @media screen and (min-width: 768px) {
 	/* These settings changing menu on screens wider than 768px*/
 	body {
