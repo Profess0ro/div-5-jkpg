@@ -54,3 +54,9 @@ span {
 .solberga {
     color: #C3170B;
 }
+/* This will make scoretext certical centered to the logo */
+.scores {
+    height: 30px;
+    width: auto;
+    vertical-align: middle;
+}
