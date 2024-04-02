@@ -123,6 +123,15 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 **CSS** - All 3 CSS-files went through W3C´s css balidation test without fails ( https://jigsaw.w3.org/css-validator )
 <img src="assets/pics/readme/jigsaw.png">
 
+**Lighthouse**
+
+
+<img src="assets/pics/readme/lighthouse.png"><br>
+<img src="assets/pics/readme/lighthouse2.png">
+
+
+
+
 **Responsiveness** - Checked with Google Chromes built in DevTools (when on the page: right-click -> inspect)
 
 I have done DevTools test on the following models:
