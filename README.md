@@ -10,28 +10,30 @@
 
 ## User Stories
 
-- <b>Landing page:</b> As a visiting user I´m first landing at a swedish version and have a choice at the top left corner to change to the english version. While I´m going further on this page there is general info about what I can find on the website, a TV-commercial that I can watch. Last there is a form where I´m guessing the team that will win this season.
+- **Landing page:** As a visiting user I´m first landing at a swedish version and have a choice at the top left corner to change to the english version. While I´m going further on this page there is general info about what I can find on the website, a TV-commercial that I can watch. Last there is a form where I´m guessing the team that will win this season.
 <br><img src="assets/pics/readme/lang.png">
 
-- <b>Contact page:</b> As a visiting user I´ll find a link to mail the the author if there´s something missing on the website.
+- **Contact page:** As a visiting user I´ll find a link to mail the the author if there´s something missing on the website.
 
-- <b>Standings:</b> As a visiting user and clicking on this link another tab opens up to soccer associations official site where I can see the actual standings in the league.
+- **Standings:** As a visiting user and clicking on this link another tab opens up to soccer associations official site where I can see the actual standings in the league.
 
-- <b>Team pages:</b> As a visiting user and clicking on a teams logo (teamname on smaller screens navbar) the chosen teams info will be shown for me in the main content area and here I can read the last years position, commentaries from the managers about this season and if I click on the rescent games score there´s a new tab opening with the official summary of that specific game.
+- **Team pages:** As a visiting user and clicking on a teams logo (teamname on smaller screens navbar) the chosen teams info will be shown for me in the main content area and here I can read the last years position, commentaries from the managers about this season and if I click on the rescent games score there´s a new tab opening with the official summary of that specific game.
 <hr>
 
 # Features 
 
 ### Navigation
 
-<b>Navigation for screens wider than 768px:</b><br><br>
+**Navigation for screens wider than 768px:**
+
+
 <img src="assets/pics/readme/nav.png">
 
 1. Here I´ve put a navigation to all the teams info in a seperated navigation bar. All logos are in a greyscale and if you hover on a logo that will be in color (except the logos that are only black and white). If you click on a teams logo their info will be shown in the iframe below the navigation.
 2. I´ve seperated the teams navigation with the links to pages that doesn´t concern info about the teams in a smaller navigation below the logos. Here the text is grey and if you hover over the text it will be green and bolder.
 
 
-<b>Navigation on smaller screens: </b>
+**Navigation on smaller screens:**
 - When you click on the bars icon this menu will be shown. Here I´ve seperated the teampages and other pages with seperated fontstyles. Green color and lowercase for the teams pages and grey color and uppercase for the pages that doesn´t concern the teams.<br><br>
 <img src="assets/pics/readme/navmobile.png">
 
@@ -73,14 +75,19 @@ If you click on this link you will be directed to the associations official site
 
 - Colors I´ve used beyond black (#000000) and white (#FFFFFF) are:<br>
     Green (#81BA5F) for links and broders and gray (#AFAFAF) for unhovered links and footer text. 
-<br><img src="assets/pics/readme/green.png"><img src="assets/pics/readme/grey.png"><img src="assets/pics/readme/teamcolors.png"><br>
-    On every teams page I have chosed to pick a color that are connected to every team, either by the color in their logo or shirtcolors. From left to right those colors are:<br> 
+    
+    <img src="assets/pics/readme/green.png"><img src="assets/pics/readme/grey.png"><img src="assets/pics/readme/teamcolors.png">
+
+
+    On every teams page I have chosed to pick a color that are connected to every team, either by the color in their logo or shirtcolors. From left to right those colors are:
+
     #003499 | #0067B2 | #E31D1A | #36A544 | #D01014 | #9E293C | #154F99 | #C3170B | #000000
 
 
 # Structure
 
-<img src="assets/pics/readme/structure.png"><br>
+<img src="assets/pics/readme/structure.png">
+
 
 As you can see in this picture all links to team pages at nav1 is targeting the iframe, thats a method I´ve learned years ago and doesn´t need to load a whole new url every time you click on a link. The exceptions is "standings" at nav2 (opens in a new window/tab) and changing language at the home page (opens on top).
 
@@ -90,25 +97,32 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 
 - Since there was so much info to show on the teampages a scrollbar showed up on the side. But I wanted a smoother version of the website. My solution to this was to put in an iframe between the navbars and the footer, this made that all stayed in place and only the iframe was scrollable.
 
-- In the beginning I´ve tried to have the navigation with all the teams logos visible even on mobile phones. But those logos took to much space from the user to read the content, so the solution to that was to insert a togglebar for mobilephones so the content would be more visible for the visitor.<br>
+- In the beginning I´ve tried to have the navigation with all the teams logos visible even on mobile phones. But those logos took to much space from the user to read the content, so the solution to that was to insert a togglebar for mobilephones so the content would be more visible for the visitor.
+
+
 <img src="assets/pics/readme/before.png"><img src="assets/pics/readme/after.png">
+- Noticed that on Galaxy fold the part on teampages that shows latest scores didn´t look so good when I´ve typed the teams name. Solution to that was to insert the teams logo instead so it looked smoother on smaller screens.
+
+
+<img src="assets/pics/readme/scores_before.png"> <img src="assets/pics/readme/scores_after.png">
 
 # Technology
 
-- <b>HTML and CSS</b>
-- <b>Visual Studio Code</b> - This IDE was easy to use.
-- <b>Github</b> - For deployment.
+- **HTML and CSS**
+- **Visual Studio Code** - This IDE was easy to use.
+- **Github** - For deployment.
 
 <hr>
 
 # Testing
 
-<b>HTML</b> - Tested all 32 html-files seperatly with https://validator.w3.org, click<a href="https://profess0ro.github.io/div-5-jkpg/html-tests/index.html"> here </a>for results:
+**HTML** - Tested all 32 html-files seperatly with https://validator.w3.org, click<a href="https://profess0ro.github.io/div-5-jkpg/html-tests/index.html"> here </a>for results:
 
-<b>CSS</b> - All 3 CSS-files went through W3C´s css balidation test without fails ( https://jigsaw.w3.org/css-validator )
+**CSS** - All 3 CSS-files went through W3C´s css balidation test without fails ( https://jigsaw.w3.org/css-validator )
 <img src="assets/pics/readme/jigsaw.png">
 
-<b>Responsiveness</b> - Checked with Google Chromes built in DevTools (when on the page: right-click -> inspect)<br>
+**Responsiveness** - Checked with Google Chromes built in DevTools (when on the page: right-click -> inspect)
+
 I have done DevTools test on the following models:
 - Galaxy Fold 
 - Iphone 14 Pro Max
@@ -116,26 +130,27 @@ I have done DevTools test on the following models:
 - Surface Pro 7
 <br>
 
-<b>Manually tested responsiveness on:</b>
+**Manually tested responsiveness on:**
 - Samsung Galaxy S23 Ultra (my own phone)
 - Laptop with dimensions 1024x768
 - Screen with dimensions 1920x1080
-<br>on all of these 7 tests i din´t found anything hard to find or read.
+
+On all of these 7 tests i din´t found anything hard to find or read.
 
 (All of these tests above have been done with Google Chrome)
 
-<b>Public testing</b> - Sent out the live page to group of people that this webpage mainly aims to. The response was very good from visitors, that found it easy to navigate through the webpage.
+**Public testing** - Sent out the live page to group of people that this webpage mainly aims to. The response was very good from visitors, that found it easy to navigate through the webpage.
 <hr>
 
 # Deployment
 
-- <b>Visual Studio Code:</b>
+- **Visual Studio Code:**
 1. Installed extension "GitHub Pull Requests".
 2. Connected my Github account to Visual Studio.
 3. Used command "Git:Clone" and pasted my repository address, now I´m connected to my repository.
 4. "Git add ." | "Git commit -m" | "Git push" | Was commands used in Visual Studio to upload my files to my repository
 
-- <b>Github:</b> 
+- **Github:** 
 1. Logged in to Github account.
 2. Got to the repository for the site. 
 3. Clicked on "settings" in the menu at the top. 
