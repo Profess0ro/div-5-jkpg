@@ -58,6 +58,8 @@
 
 On this page there´s a link to mail me if a visitor finds something missing on the page.
 
+<img src="assets/pics/readme/contact.png">
+
 ### Standings
 
 If you click on this link you will be directed to the associations official site with a live version of the leagues standings.
