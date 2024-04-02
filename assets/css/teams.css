@@ -1,12 +1,14 @@
-body {
-    font-family: Verdana;
-    text-align: left;
-}
+
 /* This fixing the logo to float at the top right side of the text with a fixed max-width*/
 .logo {
     float: right;
     max-width: 150px;
     height: auto;
+}
+/* Font styles */
+body {
+    font-family: Verdana;
+    text-align: left;
 }
 .bold {
     font-weight: bold;
@@ -54,7 +56,7 @@ span {
 .solberga {
     color: #C3170B;
 }
-/* This will make scoretext certical centered to the logo */
+/* This will make scoretext vertical centered to the logo */
 .scores {
     height: 30px;
     width: auto;

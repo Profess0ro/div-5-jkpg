@@ -12,7 +12,7 @@ body {
     background-repeat: no-repeat;
 	font-family: verdana;
 }
-/* responsiveness to header image */
+/* this class makes the header image responsive and enlarges to the screensize */
 .headerbild {
 	width: 100%;
 	height: auto;
@@ -23,13 +23,16 @@ header {
 .white-background {
 	background-color: #FFFFFF;
 }
+/* This makes content aligned to the center */
 .center {
 	margin-left: 10%;
 	margin-right: 10%;
 }
+/* This adds a space between navigation and header/main content */
 .margin-bottom {
 	margin-bottom: 3px;
 }
+/* Font styles */
 .grey-text {
 	color: #a4a4a4;
 }
@@ -43,14 +46,28 @@ footer {
 	margin-top: 10px;
 	font-size: 12px;
 }
-/* the area where all pages are guided to */
+/* main content area */
 .iframe {
 	align-content: center;
 	height:70vh;
 	width:80%;
 	border: none;
 }
-/* navbar for smallest devices up to 767px width*/
+
+/* disabling navbar for screens larger than 768px*/
+.meny, .logomeny, #check, .checkbtn {
+	display: none;
+}
+/* text menu on larger screens */
+a.nav {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+a.nav:hover {
+	color:#81BA5F;
+	font-weight: bold;
+}
+/* Navbar for smaller screens*/
 nav ul{
 	float: right;
 	margin-right: 20px;
@@ -63,19 +80,6 @@ nav ul li a{
 	cursor: pointer;
 	padding-left: 10px;
 }
-/* disabling menu for screens larger than 768px*/
-.meny, .logomeny, #check, .checkbtn {
-	display: none;
-}
-a.nav {
-	text-decoration: none;
-	text-transform: uppercase;
-}
-a.nav:hover {
-	color:#81BA5F;
-	font-weight: bold;
-}
-
 .checkbtn {
 	display: block;
 }
@@ -98,18 +102,20 @@ nav ul li {
 	font-size: 10px;
 }
 @media screen and (min-width: 768px) {
-	/* These settings changing menu on screens wider than 768px*/
+	/* Enlarges background image for larger screens*/
 	body {
 		background-size: 100%;
 	}
+	/* This disables navbar on larger screens */
+	.toggle-nav {
+		display: none;
+   }
+   /* Makes the logomenu visable on larger screens */
 	.meny {
 		display: block;
 		height: 20px;
 		margin-top: 3px;
 		padding-bottom: 3px;
-   }
-	.toggle-nav {
-		display: none;
    }
 	.logomeny {
 		display: flex;
@@ -119,7 +125,7 @@ nav ul li {
 		justify-content: center;
 		padding: 10px;
    }
-   /* Grayscale on logos */
+   /* Grayscale on logomenu */
 	img.logos {
 		filter: grayscale(1) ;
 		width: auto;
@@ -130,19 +136,20 @@ nav ul li {
 		width: auto;
 		height: 40px;
    }
+   /* Changing iframes height to fit on screens between 768px and 1023px */
    .iframe {
 	height:70vh;
 }
 }
 @media screen and (min-width: 1023px) {
-   /* Enlarging logos on screens wider than 1024px */
+   /* Enlarging logomenu on screens bigger than 1023px */
 	img.logos {
 		height: 50px;
    }
 	img.logos:hover {
 		height: 50px;
    }
-   /* Changing height on iframe on screens wider than 1024px*/
+   /* Changing iframes height to fit on screens wider than 1024px*/
 	.iframe {
 		height:55vh;
    }

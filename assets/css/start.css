@@ -1,3 +1,4 @@
+/* Font styles */
 body {
 	font-size: medium;
 	font-family: verdana;
@@ -7,12 +8,6 @@ body {
 }
 .green-text {
 	color: #81BA5F;
-}
-.flex {
-	display: flex;
-}
-.block {
-	display: block;
 }
 a {
 	color: #AFAFAF;
@@ -26,11 +21,16 @@ ul {
 	font-style: italic;
 	text-align: left;
 }
-/* Mail me link */
 a.link {
 	text-decoration: none;
 }
-/* Front page divs*/
+/* Column styles */
+.flex {
+	display: flex;
+}
+.block {
+	display: block;
+}
 .start {
 	flex-wrap: wrap;
 }
@@ -45,11 +45,7 @@ a.link {
 	border-radius: 2%;
 	margin: 5px;
 }
-.video {
-	height: 180px;
-	width: 170px;
-	border:none;
-}
+/* content on contactpage */
 .contact-center {
 	padding: 15px;
 	flex-grow: 1;
