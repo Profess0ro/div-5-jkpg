@@ -109,7 +109,7 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 # Technology
 
 - **HTML and CSS**
-- **Visual Studio Code** - This IDE was easy to use.
+- **Visual Studio Code** - This IDE was easy to use when coding this website.
 - **Github** - For deployment.
 
 <hr>
