@@ -7,7 +7,7 @@
 }
 /* Background picture and font*/
 body {
-	background-image: url("../pics/field.jpg");
+	background-image: url("../pics/field.webp");
 	background-size: 100vw 100vh;
     background-repeat: no-repeat;
 	font-family: verdana;
