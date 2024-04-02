@@ -125,6 +125,7 @@ As you can see in this picture all links to team pages at nav1 is targeting the 
 
 **Lighthouse**
 
+When tested on lighthouse the score lowers because of the large header picture. Header is large because it´s following the responsiveness of the screensize.
 
 <img src="assets/pics/readme/lighthouse.png"><br>
 <img src="assets/pics/readme/lighthouse2.png">
