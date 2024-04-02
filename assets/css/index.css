@@ -9,7 +9,7 @@
 body {
 	background-image: url("../pics/field.webp");
 	background-size: 100vw 100vh;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	font-family: verdana;
 }
 /* This class makes the header image responsive and enlarges to the screensize */
@@ -53,7 +53,6 @@ footer {
 	width:80%;
 	border: none;
 }
-
 /* disabling navbar for screens larger than 768px*/
 .meny, .logomeny, #check, .checkbtn {
 	display: none;
@@ -102,55 +101,55 @@ nav ul li {
 	font-size: 10px;
 }
 @media screen and (min-width: 768px) {
-	/* Enlarges background image for larger screens*/
-	body {
-		background-size: 100%;
-	}
-	/* This disables navbar on larger screens */
-	.toggle-nav {
-		display: none;
-   }
-   /* Makes the logomenu visable on larger screens */
-	.meny {
-		display: block;
-		height: 20px;
-		margin-top: 3px;
-		padding-bottom: 3px;
-   }
-	.logomeny {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		align-content: space-between;
-		justify-content: center;
-		padding: 10px;
-   }
-   /* Grayscale on logomenu */
-	img.logos {
-		filter: grayscale(1) ;
-		width: auto;
-		height: 40px;
-   }
-	img.logos:hover {
-		filter: grayscale(0);
-		width: auto;
-		height: 40px;
-   }
-   /* Changing iframes height to fit on screens between 768px and 1023px */
-   .iframe {
+/* Enlarges background image for larger screens*/
+body {
+	background-size: 100%;
+}
+/* This disables navbar on larger screens */
+.toggle-nav {
+	display: none;
+}
+/* Makes the logomenu visable on larger screens */
+.meny {
+	display: block;
+	height: 20px;
+	margin-top: 3px;
+	padding-bottom: 3px;
+}
+.logomeny {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: center;
+	padding: 10px;
+}
+/* Grayscale on logomenu */
+img.logos {
+	filter: grayscale(1) ;
+	width: auto;
+	height: 40px;
+}
+img.logos:hover {
+	filter: grayscale(0);
+	width: auto;
+	height: 40px;
+}
+/* Changing iframes height to fit on screens between 768px and 1023px */
+.iframe {
 	height:70vh;
 }
 }
 @media screen and (min-width: 1023px) {
-   /* Enlarging logomenu on screens bigger than 1023px */
-	img.logos {
-		height: 50px;
-   }
-	img.logos:hover {
-		height: 50px;
-   }
-   /* Changing iframes height to fit on screens wider than 1024px*/
-	.iframe {
-		height:55vh;
-   }
+/* Enlarging logomenu on screens bigger than 1023px */
+img.logos {
+	height: 50px;
+}
+img.logos:hover {
+	height: 50px;
+}
+/* Changing iframes height to fit on screens wider than 1024px*/
+.iframe {
+	height:55vh;
+}
 }
