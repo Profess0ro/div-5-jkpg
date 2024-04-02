@@ -5,7 +5,7 @@
 	list-style: none;
 	box-sizing: border-box;
 }
-/* Background picture and font*/
+/* Background picture and font styles. Background from https://www.vecteezy.com/free-vector/soccer-pitch */
 body {
 	background-image: url("../pics/field.webp");
 	background-size: 100vw 100vh;
