@@ -12,7 +12,7 @@ body {
     background-repeat: no-repeat;
 	font-family: verdana;
 }
-/* this class makes the header image responsive and enlarges to the screensize */
+/* This class makes the header image responsive and enlarges to the screensize */
 .headerbild {
 	width: 100%;
 	height: auto;
