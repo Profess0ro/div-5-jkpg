@@ -146,8 +146,8 @@ When tested on lighthouse the score lowers because of the large header picture. 
 - In the beginning I´ve tried to have the navigation with all the teams logos visible even on mobile phones. But those logos took to much space from the user to read the content, so the solution to that was to insert a togglebar for mobilephones so the content would be more visible for the visitor.
 
 
-<img src="readme/before.png"><img src="readme/after.png">
-- Noticed that on Galaxy fold the part on teampages that shows latest scores didn´t look so good when I´ve typed the teams name. Solution to that was to insert the teams logo instead so it looked smoother on smaller screens.
+<img src="readme/before.png"><img src="readme/after.png"><br>
+- Noticed that on Galaxy fold the part on teampages that shows latest scores didn´t look so good when I´ve typed the teams name. Solution to that was to insert the teams logo instead so it looked smoother on smaller screens.<br>
 
 
 <img src="readme/scores_before.png"> <img src="readme/scores_after.png">
@@ -155,21 +155,15 @@ When tested on lighthouse the score lowers because of the large header picture. 
 
 
 
-**Responsiveness** - Checked with Google Chromes built in DevTools (when on the page: right-click -> inspect)
+## Responsiveness 
+- Checked with Google Chromes built in DevTools (when on the page: right-click -> inspect)
 
-I have done DevTools test on the following models:
-- Galaxy Fold 
-- Iphone 14 Pro Max
-- Ipad Mini
-- Surface Pro 7
+I have done DevTools test on the following models:<br>- Galaxy Fold<br>- Iphone 14 Pro Max<br>- Ipad Mini<br>- Surface Pro 7
 <br>
 
-**Manually tested responsiveness on:**
-- Samsung Galaxy S23 Ultra (my own phone)
-- Laptop with dimensions 1024x768
-- Screen with dimensions 1920x1080
+**Manually tested responsiveness on:**<br>- Samsung Galaxy S23 Ultra (my own phone)<br>- Laptop with dimensions 1024x768<br>- Screen with dimensions 1920x1080
 
-On all of these 7 tests i din´t found anything hard to find or read.
+On all of these 7 tests i didn´t found anything hard to find or read.
 
 (All of these tests above have been done with Google Chrome)
 
